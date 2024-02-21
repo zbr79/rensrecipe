@@ -10,77 +10,22 @@
       font-family: Arial, sans-serif;
     }
     
-    .action-button{
-        position: absolute;
-        top:39%;
-        left:9%;
-        background-color: rgb(255, 235, 18);
-        color: black;
-        border:none;
-        height:20vh;
-        width: 40vw;
-        font-size: 4vh;
-      
-    }
-
-    .menu-button{
+    #menu-button{
         position: absolute;
         top:92%;
         left:8%;
-        background-color: green;
-        color: white;
+        background-color: rgb(160, 155, 156);
         border:none;
         height:6vh;
-        width: 10vw;
-        font-size: 1vh;
-      
+        width: 10vw;    
     }
-    .addin-button{
-        position: absolute;
-        top:61%;
-        left: 9%;
-        background-color: rgb(221, 0, 255);
-        color: white;
-        border:none;
-        height:20vh;
-        width: 40vw;
-        font-size: 4vh;
-      
-    }
+    #menu-button img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    height: auto; /* Allow the height to adjust based on the aspect ratio */
+}
 
-    .addin-button{
-        position: absolute;
-        top:61%;
-        left: 9%;
-        background-color: rgb(255, 0, 234);
-        color: rgb(0, 0, 0);
-        border:none;
-        height:20vh;
-        width: 40vw;
-        font-size: 4vh;
-        text-align: center;
-        text-decoration: none; /* Remove default link underline */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-      
-    }
 
-    .storage-button{
-        position: absolute;
-        top:61%;
-        left: 51%;
-        background-color: rgb(6, 44, 255);
-        color: white;
-        border:none;
-        height:20vh;
-        width: 40vw;
-        font-size: 4vh;
-       
-    }
-
-    .buttom-button{
+    .bottom-button{
         position: absolute;
         top:90%;
         left: 0%;
@@ -106,13 +51,15 @@
 </head>
 <body>
 <p class ="title">Ren's Recipe</p>
-<button class="buttom-button"></button>
-<button class="action-button">首页</button>
+<button class="bottom-button"></button>
 <button class="menu-button">菜谱</button>
 
-<button class="storage-button">仓库</button>
-<button class="addin-button"></button>
-<a href="addin.html" class="addin-button" target="_blank">购入</a>
+
+<button id="menu-button">
+  <img src="menu-button.png" alt="menu-button">
+</button>
+
+
 
 
 </body>
