@@ -21,7 +21,7 @@
     }
     #menu-button img {
     max-width: 100%; /* Ensure the image does not exceed the width of its container */
-    height: auto; /* Allow the height to adjust based on the aspect ratio */
+    max-height: 100%; /* Allow the height to adjust based on the aspect ratio */
 }
 
 
@@ -46,13 +46,21 @@
         font-size: 3vw;
       text-align: center;
     }
+    .all-menu-text{
+        position: absolute;
+        top: 97%;
+        left: 10%;
+        transform: translateX(-50%);
+        font-size: 2vw;
+      text-align: center;
+    }
     
   </style>
 </head>
 <body>
 <p class ="title">Ren's Recipe</p>
+<p class ="all-menu-text">全部菜谱</p>
 <button class="bottom-button"></button>
-<button class="menu-button">菜谱</button>
 
 
 <button id="menu-button">
