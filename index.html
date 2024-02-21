@@ -9,6 +9,28 @@
       padding: 0;
       font-family: Arial, sans-serif;
     }
+
+    .title{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 3vw;
+      text-align: center;
+    }
+
+    .bottom-button{
+        position: absolute;
+        top:90%;
+        left: 0%;
+        background-color: rgb(160, 155, 156);
+        color: white;
+        border:none;
+        height:10vh;
+        width: 100vw;
+        font-size: 4vh;
+       
+    }
     
     #menu-button{
         position: absolute;
@@ -23,49 +45,31 @@
     max-width: 100%; /* Ensure the image does not exceed the width of its container */
     max-height: 100%; /* Allow the height to adjust based on the aspect ratio */
 }
-
-
-    .bottom-button{
-        position: absolute;
-        top:90%;
-        left: 0%;
-        background-color: rgb(160, 155, 156);
-        color: white;
-        border:none;
-        height:10vh;
-        width: 100vw;
-        font-size: 4vh;
-       
-    }
-
-    .title{
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 3vw;
-      text-align: center;
-    }
     .all-menu-text{
         position: absolute;
-        top: 97%;
-        left: 10%;
+        top: 96.5%;
+        left: 12.5%;
         transform: translateX(-50%);
         font-size: 2vw;
-      text-align: center;
+        color: blue;
+        text-align: center;
     }
     
   </style>
 </head>
 <body>
 <p class ="title">Ren's Recipe</p>
-<p class ="all-menu-text">全部菜谱</p>
 <button class="bottom-button"></button>
 
 
 <button id="menu-button">
   <img src="menu-button.png" alt="menu-button">
 </button>
+<p class ="all-menu-text">全部菜谱</p>
+
+
+
+
 
 
 
