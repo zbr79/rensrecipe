@@ -4,67 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    #image-container {
-      overflow: hidden;
-      position: relative;
-      width: 100%;
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
     }
 
-    #image-slider {
-      display: flex;
-      transition: transform 0.5s ease-in-out;
+    .title{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 3vw;
+      text-align: center;
     }
 
-    .image {
-      width: 100%;
-      flex: 0 0 auto;
+    .bottom-button{
+        position: absolute;
+        top:90%;
+        left: 0%;
+        background-color: none;
+        /*background-color: rgb(160, 155, 156);*/
+        color: white;
+        border:none;
+        height:auto;
+        width: 100vw;
+        font-size: 4vh;
+       
     }
+    
+    #menu-button{
+        position: absolute;
+        top:90%;
+        left:9%;
+      
+        border:none;
+        height:auto;
+        width: 10vw;    
+    }
+    #menu-button img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    max-height: 100%; /* Allow the height to adjust based on the aspect ratio */
+}
+    .all-menu-text{
+        position: absolute;
+        top: 96.5%;
+        left: 12.5%;
+        transform: translateX(-50%);
+        font-size: 2vw;
+        color: black;
+        text-align: center;
+    }
+    
   </style>
 </head>
 <body>
+<p class ="title">1248</p>
+<button class="bottom-button"></button>
 
-<div id="image-container">
-  <div id="image-slider">
-    <img class="image" src="image1.jpg" alt="Image 1">
-    <img class="image" src="image2.jpg" alt="Image 2">
-    <img class="image" src="image3.jpg" alt="Image 3">
-    <!-- Add more images as needed -->
-  </div>
+
+<div id="menu-button" onclick="removeElements()">
+  <img src="menu-button.png" alt="menu-button">
 </div>
-
+<div class="element-to-remove">.title</div>
 <script>
-  let currentIndex = 0;
-  const slider = document.getElementById('image-slider');
-  const images = document.querySelectorAll('.image');
-
-  function showImage(index) {
-    const offset = -index * 100 + '%';
-    slider.style.transform = 'translateX(' + offset + ')';
+  function removeElements() {
+    var elementsToRemove = document.querySelectorAll('.element-to-remove');
+    elementsToRemove.forEach(function(element) {
+      element.remove();
+    });
   }
-
-  function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    showImage(currentIndex);
-  }
-
-  function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    showImage(currentIndex);
-  }
-
-  document.addEventListener('swiped-right', prevImage);
-  document.addEventListener('swiped-left', nextImage);
 </script>
+<p class ="all-menu-text">全部菜谱</p>
 
-<!-- Add a library for swipe events, e.g., hammer.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-<script>
-  const mc = new Hammer(document.body);
-  mc.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL });
-  mc.on('swipeleft swiperight', function (event) {
-    document.dispatchEvent(new Event('swiped-' + event.type));
-  });
-</script>
+
+
+
+
+
+
 
 </body>
 </html>
