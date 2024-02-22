@@ -1,0 +1,10 @@
+body {
+    margin: 0; /* Remove default margin to ensure full-width image */  
+    
+}
+
+.recipe-pic {
+    width: 30%;
+    height: 30vh;
+    object-fit: cover;
+}
