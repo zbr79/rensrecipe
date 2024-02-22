@@ -24,13 +24,13 @@ body {
 }
 #steps-text {
     font-weight: bold;
-    font-size: 4vw; /* Adjust the size as needed */
+    font-size: 5vw; /* Adjust the size as needed */
 }
 
 .step-number-text {
     font-weight: bold;
-    font-size: 3vw; /* Adjust the size based on viewport width */
-    margin-top: 10px; /* Optional: Add spacing between text elements */
+    font-size: 4vw; /* Adjust the size based on viewport width */
+    margin-bottom: -10px; /* Optional: Add spacing between text elements */
 }
 table {
     width: 100%;
