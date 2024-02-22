@@ -15,16 +15,22 @@ body {
 #recipe-title-text {
     text-align: center;
     font-weight: bold;
-    font-size: 4vw; /* Adjust the size as needed */
+    font-size: 5vw; /* Adjust the size as needed */
 }
 #recipe-portion-text {
     color:gray;
     text-align: center;
+    font-size: 3vw;
 }
-#recipe-title-text {
-    text-align: center;
+#steps-text {
     font-weight: bold;
     font-size: 4vw; /* Adjust the size as needed */
+}
+
+.step-number-text {
+    font-weight: bold;
+    font-size: 3vw; /* Adjust the size based on viewport width */
+    margin-top: 10px; /* Optional: Add spacing between text elements */
 }
 table {
     width: 100%;
