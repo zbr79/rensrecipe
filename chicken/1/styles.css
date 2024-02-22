@@ -1,9 +1,5 @@
 body {
-    margin: 0; /* Remove default margin to ensure full-width image */
-
-
-
-    
+    margin: 0; /* Remove default margin to ensure full-width image */  
 }
 
 #recipe-picture {
@@ -15,13 +11,22 @@ body {
 #recipe-title-text {
     text-align: center;
     font-weight: bold;
-    font-size: 5vw; /* Adjust the size as needed */
+    font-size: 8vw; /* Adjust the size as needed */
+    margin-bottom: -10px;
 }
 #recipe-portion-text {
     color:gray;
+    font-weight: bold;
     text-align: center;
-    font-size: 3vw;
+    font-size: 6vw;
 }
+
+#usage-text {
+    font-weight: bold;
+    font-size: 5vw; /* Adjust the size as needed */
+    margin-bottom: -1px;
+}
+
 #steps-text {
     font-weight: bold;
     font-size: 5vw; /* Adjust the size as needed */
