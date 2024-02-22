@@ -35,5 +35,22 @@ body {
     top:-20%;
     left: 55%;
     font-weight: bold;
+    color: black;
     font-size: 5vw;
+}
+
+.recipe01-time {
+    position: absolute;
+    top:15%;
+    left: 55%;
+    font-size: 3vw;
+    color:  gray;
+}
+
+.recipe01-tags {
+    position: absolute;
+    top:35%;
+    left: 55%;
+    font-size: 3vw;
+    color:  gray;
 }
