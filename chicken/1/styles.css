@@ -38,6 +38,9 @@ body {
     font-size: 4vw; /* Adjust the size based on viewport width */
     margin-bottom: -10px; /* Optional: Add spacing between text elements */
 }
+.step-content-text {
+    margin-bottom: -8px; /* Optional: Add spacing between text elements */
+}
 table {
     width: 100%;
     border-collapse: collapse;
