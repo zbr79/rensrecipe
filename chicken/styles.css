@@ -3,6 +3,14 @@ body {
     
 }
 
+
+#menu-title-text {
+    font-weight: bold;
+    font-size: 5vw; /* Adjust the size as needed */
+    margin-bottom: 10px;
+}
+
+
 .recipe-pic {
     width: 30%;
     height: 30vh;
