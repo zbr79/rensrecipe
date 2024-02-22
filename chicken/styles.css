@@ -11,6 +11,7 @@ body {
 }
 
 .recipe01-div {
+    top:10%;
     width: 100vw;
     height:20vh;
     position: relative;
