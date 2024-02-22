@@ -22,7 +22,7 @@ body {
 }
 
 
-.recipe-pic img{
+#recipe-pic{
     position: absolute;
     margin-left: 5%;
     width: 45vw;
@@ -32,11 +32,15 @@ body {
 
 .recipe01-title {
     position: absolute;
-    top:-20%;
+    top:0%;
     left: 55%;
+    height:10wh;
+    width:20vw;
+
     font-weight: bold;
     color: black;
     font-size: 5vw;
+    transform: translateY(-50%);
 }
 
 .recipe01-time {
@@ -45,6 +49,7 @@ body {
     left: 55%;
     font-size: 3vw;
     color:  gray;
+    transform: translateY(-50%);
 }
 
 .recipe01-tags {
@@ -53,4 +58,5 @@ body {
     left: 55%;
     font-size: 3vw;
     color:  gray;
+    transform: translateY(-50%);
 }
