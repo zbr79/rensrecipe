@@ -2,8 +2,25 @@ body {
     margin: 0; /* Remove default margin to ensure full-width image */
 
 
+
+    
 }
-#table1 {
+
+#recipe-picture {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+#recipe-title-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4vw; /* Adjust the size as needed */
+}
+#recipe-portion-text {
+    text-align: center;
+}
+table {
     width: 110%;
     border-collapse: collapse;
     margin-bottom: 20px; /* Optional: Add some space below the table */
