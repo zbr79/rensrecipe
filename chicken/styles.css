@@ -16,13 +16,19 @@ body {
     height:20vh;
     position: relative;
 
-    display: flex;
+    /* display: flex; */
     align-items: center; /* Align items vertically */
 }
 
 
 .recipe-pic img{
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
+}
+
+.recipe01-title {
+    position: absolute;
+    top: -10%;
+    left: 55%;
 }
