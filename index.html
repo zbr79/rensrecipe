@@ -1,81 +1,37 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .title{
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 3vw;
-      text-align: center;
-    }
-
-    .bottom-button{
-        position: absolute;
-        top:90%;
-        left: 0%;
-        background-color: none;
-        /*background-color: rgb(160, 155, 156);*/
-        color: white;
-        border:none;
-        height:auto;
-        width: 100vw;
-        font-size: 4vh;
-       
-    }
-    
-    #menu-button{
-        position: absolute;
-        top:90%;
-        left:9%;
-      
-        border:none;
-        height:auto;
-        width: 10vw;    
-    }
-    #menu-button img {
-    max-width: 100%; /* Ensure the image does not exceed the width of its container */
-    max-height: 100%; /* Allow the height to adjust based on the aspect ratio */
-}
-    .all-menu-text{
-        position: absolute;
-        top: 96.5%;
-        left: 12.5%;
-        transform: translateX(-50%);
-        font-size: 2vw;
-        color: black;
-        text-align: center;
-    }
-    
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ren's Recipe</title>
 </head>
+
 <body>
-<p class ="title">1248</p>
-<button class="bottom-button"></button>
 
 
-<div id="menu-button" onclick="removeElements()">
-  <img src="menu-button.png" alt="menu-button">
+<div><p id = sort-by-material-text>食材</p></div>
+
+<div>
+  <button onclick="window.location.href='chicken/chicken-menu.html';" id="chicken-button">鸡肉</button>
+<button id="pork-button">猪肉</button>
+<button id="beef-button">牛肉</button>
+<button id="lamb-button">羊肉</button>
+<button id="seafood-button">海鲜</button>
+<button id="eggs-button">鸡蛋</button>
+<button id="soup-button">靓汤</button>
+<button id="noodle-button">粉面</button>
+<button id="dessert-button">甜品</button>
 </div>
-<div class="element-to-remove">.title</div>
-<script>
-  function removeElements() {
-    var elementsToRemove = document.querySelectorAll('.element-to-remove');
-    elementsToRemove.forEach(function(element) {
-      element.remove();
-    });
-  }
-</script>
-<p class ="all-menu-text">全部菜谱</p>
+
+<div><p id = sort-by-cuisine-text>菜系</p></div>
+
+<div>
+  <button id="cantonese-cuisine-button">经典粤菜</button>
+  <button id="chaoshan-cuisine-button">潮汕</button>
+  <button id="korean-cuisine-button">韩国</button>
+  <button id="northeast-cuisine-button">东北</button>
+  <button id="spicy-cuisine-button">川菜</button>
+  </div>
 
 
 
@@ -84,5 +40,11 @@
 
 
 
+
+<script src="script.js"></script>
 </body>
+
+
+
+
 </html>
