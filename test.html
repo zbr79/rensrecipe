@@ -3,27 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Div in Flex Container</title>
     <style>
         body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
             margin: 0;
+            padding: 0;
         }
 
-        .fixed-size {
-            height: 2532px;
-            width: 1170px;
+        .screen-limit {
+            border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            width: 500px; /* Set the width of the container */
+            height:300vh;
+        }
+
+        .fix-div {
+            flex: 0 0 30%; /* Set the width of the fixed div to 30% of its containing flex container */
             background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0; /* Adjust the top position as needed */
+        }
+
+        /* Additional styling for content within the screen-limit */
+        .content {
+            flex: 1; /* Allow this section to grow and take remaining space */
+            padding: 10px;
+            box-sizing: border-box;
         }
     </style>
 </head>
 <body>
 
-<div class="fixed-size">
-    <!-- Your content goes here -->
-</div>
+    <div class="screen-limit">
+        <div class="fix-div">
+            This is a fixed div.
+        </div>
+
+        <div class="content">
+            <!-- Content within the flex container -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+        </div>
+    </div>
+
+    <!-- Other content outside the flex container -->
 
 </body>
 </html>
