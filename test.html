@@ -19,14 +19,14 @@
         }
 
         .fix-div {
-            flex: 0 0 30%; /* Set the width of the fixed div to 30% of its containing flex container */
-            background-color: #3498db;
-            color: #fff;
-            padding: 10px;
-            box-sizing: border-box;
-            position: fixed;
-            top: 0; /* Adjust the top position as needed */
-        }
+    background-color: #3498db;
+    box-sizing: border-box;
+    position: fixed;
+    width: 30%; /* Set the width of the fixed div to 30% of its containing flex container */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    height: 100%; /* Take the full height of the viewport */
+}
 
         /* Additional styling for content within the screen-limit */
         .content {
@@ -45,7 +45,7 @@
 
         <div class="content">
             <!-- Content within the flex container -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+           
         </div>
     </div>
 
