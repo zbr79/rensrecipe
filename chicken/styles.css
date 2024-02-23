@@ -1,22 +1,31 @@
 .screen-limit {
     background-color: blueviolet;
     width: 100vw; /* Default: 100% of viewport width */
+    height:100vw;
 }
 
 @media (min-width: 500px) {
     .screen-limit {
         background-color: rgb(205, 226, 43);
         width: 500px; /* Override for screens wider than 500px */
-
-
-body {
-    margin: 0; /* Remove default margin to ensure full-width image */  
-    
-}
-
+        height: 1000px;
 
     }
+
 }
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+    
+
 
 
 #menu-title-text {
