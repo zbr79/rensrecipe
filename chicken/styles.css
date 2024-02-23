@@ -35,14 +35,16 @@ body {
     width: inherit;
     height:10%;
     position: fixed;
-    background-color: rgb(14, 246, 188);
+    background-color: white;
+    border-bottom:1px solid gray;
+    
     display:flex;
     flex-direction: row;
 }
 .back-button-section{
     position: relative;
     display: inline-block;
-    background-color: red;
+    /* background-color: red; */
     width: 20%;
     height: 100%;
 }
