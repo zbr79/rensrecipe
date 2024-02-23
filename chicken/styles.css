@@ -1,12 +1,12 @@
 .screen-limit {
-    background-color: blueviolet;
+    border:2px solid purple;
     width: 100vw; /* Default: 100% of viewport width */
-    height:100vw;
+    height:100vh;
 }
 
 @media (min-width: 500px) {
     .screen-limit {
-        background-color: rgb(205, 226, 43);
+        border:2px solid red;
         width: 500px; /* Override for screens wider than 500px */
         height: 1000px;
 
