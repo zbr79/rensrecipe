@@ -10,7 +10,6 @@
     .screen-limit {
         border:2px solid red;
         width: 500px;
-        /* height: 800px; */
         display:flex;
         flex-direction: column;
 
@@ -33,7 +32,7 @@ body {
 
 
 .top-bar {
-    flex: 0 0 auto;
+    width: inherit;
     height:10%;
     position: fixed;
     background-color: rgb(14, 246, 188);
