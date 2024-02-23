@@ -26,6 +26,9 @@ body {
     align-items: center;
     height: 100vh;
     line-height: 0;
+    a {
+        text-decoration: none;
+      }
 }
 
 
@@ -55,6 +58,7 @@ body {
     display:flex;
     flex-direction: row;
     margin-bottom:5%;
+    object-fit: cover;
 } 
 
 
