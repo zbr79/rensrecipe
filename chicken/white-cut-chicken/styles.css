@@ -1,5 +1,5 @@
 .screen-limit {
-    border:2px solid purple;
+    /* border:2px solid purple; */
     width: 100vw;
     height:100vh;
     display:flex;
@@ -8,7 +8,7 @@
 
 @media (min-width: 500px) {
     .screen-limit {
-        border:2px solid red;
+        /* border:2px solid red; */
         width: 500px;
         display:flex;
         flex-direction: column;
@@ -86,11 +86,6 @@ body {
 
 }
 
-
-
-
-
-
 .recipe-text-section {
     margin-top: 3%;
     /* border:2px solid rgb(42, 217, 188); */
@@ -99,6 +94,7 @@ body {
 
     display:flex;
     flex-direction: row;
+    margin-bottom: 3%;
 }
 
 .recipe-time-est {
@@ -123,18 +119,68 @@ body {
     text-align: center;
 }
 
+
+
 .usage-chart-section {
     display: inline-block;
-    border:2px solid rgb(254, 0, 0); 
+    /* border:2px solid rgb(254, 0, 0); */
     margin-left: 5%;
     width:90%;
 
     color: gray;
     font-size: 0.8em;
-
     text-align: center;
 }
+
+.usage-text-section{
+    width:100%;
+    height:10%;
+
+    /* border:2px solid rgb(42, 217, 188); */
+
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+
 .usage-chart {
+    margin-top: -2%;
+    /* border: none; */
+    width:100%
+
+}
+
+
+.sause-chart-section {
+    margin-top: 10%;
+    display: inline-block;
+    /* border:2px solid rgb(254, 0, 0); */
+    margin-left: 5%;
+    width:90%;
+
+    color: gray;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.sause-text-section{
+    width:100%;
+    height:10%;
+
+    /* border:2px solid rgb(42, 217, 188); */
+
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+
+.sause-chart {
+    margin-top: -2%;
+    /* border: none; */
     width:100%
 
 }
