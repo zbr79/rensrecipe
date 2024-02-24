@@ -134,7 +134,7 @@ body {
 }
 
 .chart-title-section{
-    border:3px solid rgb(43, 57, 255);
+    /* border:3px solid rgb(43, 57, 255); */
     width:100%;
     font-weight: bold;
     color: black;
@@ -146,9 +146,8 @@ body {
 .chart-content {
     /* border:2px solid rgb(157, 255, 0); */
     width:100%;
-    height:100%;
-    box-sizing: content-box;
-    border-collapse: collapse;
+    /* box-sizing: content-box;*/
+    border-collapse: collapse; 
 }
 
 
