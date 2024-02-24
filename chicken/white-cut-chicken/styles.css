@@ -77,32 +77,31 @@ body {
 
 
 .menu-page-title {
+    /* border:2px solid rgb(42, 217, 188); */
+    margin-top:2%;
     width: 100%;
-    height:5%;
-    
     font-weight: bold;
     color: black;
     font-size: 2em;
     text-align: center;
+    line-height: 0;
 
 }
 
 .recipe-text-section {
-    margin-top: 3%;
     /* border:2px solid rgb(42, 217, 188); */
     width:100%;
-    height:5%;
-
     display:flex;
     flex-direction: row;
     margin-bottom: 3%;
+    line-height: 0;
 }
 
 .recipe-time-est {
+    margin-left:10%;
     display: inline-block;
     /* border:2px solid rgb(254, 0, 0); */
-    height:100%;
-    width:50%;
+    width:40%;
     color: gray;
     font-size: 0.8em;
     text-align: center;
@@ -111,8 +110,8 @@ body {
 .recipe-portion {
     display: inline-block;
     /* border:2px solid rgb(254, 0, 0); */
-    height:100%;
-    width:50%;
+    width:40%;
+    margin-right:10%;
 
     color: gray;
     font-size: 0.8em;
@@ -187,7 +186,8 @@ body {
 
 
 .steps-info-section{
-    width:100%;
+    margin-left:5%;
+    width:90%;
     height:200px;
     /* border:2px solid rgb(232, 8, 8); */
 }
