@@ -121,68 +121,32 @@ body {
 
 
 
-.usage-chart-section {
-    display: inline-block;
+.chart-section {
     /* border:2px solid rgb(254, 0, 0); */
     margin-left: 5%;
     width:90%;
-
-    color: gray;
     font-size: 0.8em;
     text-align: center;
+    margin-bottom: 10%;
 }
 
-.usage-text-section{
-    border:3px solid rgb(43, 57, 255);
+.chart-title-section{
+    /* border:3px solid rgb(43, 57, 255); */
     width:100%;
-    height:10%;
-
-    
-
     font-weight: bold;
     color: black;
     font-size: 1.5em;
     text-align: left;
+    margin-bottom: 1%;
 }
 
-
-.usage-chart {
-    border:2px solid rgb(157, 255, 0);
+.chart-content {
+    /* border:2px solid rgb(157, 255, 0); */
     width:100%;
     height:100%;
-
 }
 
 
-.sause-chart-section {
-    margin-top: 10%;
-    display: inline-block;
-    /* border:2px solid rgb(254, 0, 0); */
-    margin-left: 5%;
-    width:90%;
-    color: gray;
-    font-size: 0.8em;
-    text-align: center;
-}
-
-.sause-text-section{
-    width:100%;
-    height:10%;
-
-    /* border:2px solid rgb(42, 217, 188); */
-
-    font-weight: bold;
-    color: black;
-    font-size: 1.5em;
-    text-align: left;
-}
-
-
-.sause-chart {
-    width:100%;
-    height:100%;
-
-}
 
 
 .steps-info-section{
