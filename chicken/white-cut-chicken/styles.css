@@ -122,3 +122,20 @@ body {
 
     text-align: center;
 }
+
+.usage-chart-section {
+    display: inline-block;
+    border:2px solid rgb(254, 0, 0); 
+    margin-left: 5%;
+    width:90%;
+
+    color: gray;
+    font-size: 0.8em;
+
+    text-align: center;
+}
+.usage-chart {
+    width:100%
+
+}
+
