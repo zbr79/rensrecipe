@@ -1,5 +1,5 @@
 .screen-limit {
-    /* border:2px solid purple; */
+    /* border:2px solid purple;  */
     width: 100vw;
     height:100vh;
     display:flex;
@@ -20,11 +20,12 @@
 body {
     margin: 0;
     padding:0;
+    line-height: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    line-height: 0;
+    
     a {
         text-decoration: none;
       }
@@ -181,6 +182,51 @@ body {
 .sause-chart {
     width:100%;
     height:100%;
+
+}
+
+
+.steps-info-section{
+    width:100%;
+    height:200px;
+    /* border:2px solid rgb(232, 8, 8); */
+}
+
+.steps-title-text{
+    width:100%;
+    /* border:2px solid rgb(253, 181, 0);  */
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+
+.step-section{
+    width:100%;
+    /* border:2px solid rgb(61, 255, 135); */
+    margin-bottom: 3%;
+}
+
+.step-number{
+    width:100%;
+
+    /* border:2px solid rgb(255, 18, 69); */
+
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+    text-align: left;
+
+}
+
+.step-instru{
+    width:100%;
+    /* border:2px solid rgb(43, 0, 217); */
+    color: black;
+    font-size: 0.8em;
+    text-align: left;
 
 }
 
