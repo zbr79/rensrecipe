@@ -102,8 +102,10 @@ body {
 
 .sub-catalog-pic {
     width: 100%;
-    box-sizing: border-box;
-    position: relative;
+    height:100%;
+    object-fit: cover;
+    /* box-sizing: border-box; */
+    /* position: relative; */
     
 }
 
@@ -113,7 +115,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
     backdrop-filter: blur(20px); 
     width:100%;
-    bottom: 10%; 
+    bottom: 0%; 
     text-align: center;
     color:black;
    
