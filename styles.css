@@ -115,7 +115,7 @@ body {
 
 .sub-catalog-name{
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
     backdrop-filter: blur(20px); 
     width:100%;
     bottom: 0%; 
