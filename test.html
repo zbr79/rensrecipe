@@ -1,55 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixed Div in Flex Container</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      background-color: #3498db; /* Set your desired background color */
+      padding: 20px;
+      border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    }
 
-        .screen-limit {
-            border: 2px solid red;
-            display: flex;
-            flex-direction: column;
-            width: 500px; /* Set the width of the container */
-            height:300vh;
-        }
-
-        .fix-div {
-    background-color: #3498db;
-    box-sizing: border-box;
-    position: fixed;
-    width: 30%; /* Set the width of the fixed div to 30% of its containing flex container */
-    top: 0; /* Stick to the top */
-    left: 0; /* Stick to the left */
-    height: 100%; /* Take the full height of the viewport */
-}
-
-        /* Additional styling for content within the screen-limit */
-        .content {
-            flex: 1; /* Allow this section to grow and take remaining space */
-            padding: 10px;
-            box-sizing: border-box;
-        }
-    </style>
+    .blurred-background {
+    width:50%;
+     /* Adjust the blur value as needed */
+      padding: 20px; /* Add padding to make the text readable */
+      border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    }
+  </style>
 </head>
 <body>
 
-    <div class="screen-limit">
-        <div class="fix-div">
-            This is a fixed div.
-        </div>
-
-        <div class="content">
-            <!-- Content within the flex container -->
-           
-        </div>
+  <div class="container">
+    <div class="blurred-background">
+      <p>Your text goes here.</p>
     </div>
-
-    <!-- Other content outside the flex container -->
+  </div>
 
 </body>
 </html>
