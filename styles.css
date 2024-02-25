@@ -1,14 +1,14 @@
 .screen-limit {
-    /* border:2px solid purple; */
+    border:2px solid purple;
     width: 100vw;
     height:100vh;
     display:flex;
     flex-direction: column;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     .screen-limit {
-        /* border:2px solid red; */
+        border:2px solid red;
         width: 500px;
         display:flex;
         flex-direction: column;
@@ -76,7 +76,7 @@ body {
     flex-direction: column;
 
 
-     /* border: 2px solid rgb(229, 21, 166) */
+      border: 2px solid rgb(229, 21, 166) 
 }
 
 
@@ -85,7 +85,8 @@ body {
     height:40%;
     display:flex;
     flex-direction: row;
-    /* border: 2px solid rgb(24, 255, 97); */
+    border: 2px solid rgb(24, 255, 97);
+    margin-bottom:3%;
 }
 
 
@@ -94,9 +95,10 @@ body {
     position: relative;
     width: 24%;
     height: 100%;
-    /* border: 3px solid green; */
+    border: 1px solid black; 
     margin-right:1%;
     /* margin-bottom:3%; */
+    border: 4px solid rgb(26, 37, 240);
 }
 
 
