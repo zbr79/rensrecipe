@@ -12,6 +12,7 @@
     .container {
         max-width:640px;
         border:2px solid red;
+        background-color: red;
     }
 
 }
@@ -20,6 +21,7 @@
     .container {
         max-width:1024px;
         border:2px solid purple;
+        background-color: purple;
     }
 
 }
@@ -27,6 +29,7 @@
     .container {
         max-width:1536px;
         border:2px solid blue;
+        background-color: blue;
     }
 
 }
