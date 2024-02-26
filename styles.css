@@ -93,9 +93,11 @@ body {
     flex-direction: row;
 }
 .top-bar-menu{
+    justify-content: space-between;
     background-color: yellow;
     display:flex;
     align-items: center;
+
     
 }
 .top-bar-menu img {
@@ -109,6 +111,7 @@ body {
     background-color: yellow;
     display:flex;
     align-items: center;
+    border-radius: 50px;
     
 }
 .top-bar-website-icon img {
