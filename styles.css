@@ -87,14 +87,13 @@ body {
     margin-left:5%;
 
     justify-content: space-between;
-    
-    /* background-color: rgb(15, 236, 11); */
+
+    background-color: rgb(15, 236, 11);
     display:flex;
     flex-direction: row;
 }
 .top-bar-menu{
-    margin-left:5%;
-    /* background-color: yellow; */
+    background-color: yellow;
     display:flex;
     align-items: center;
     
@@ -107,8 +106,7 @@ body {
 
 
 .top-bar-website-icon{
-    margin-left:5%;
-    /* background-color: yellow; */
+    background-color: yellow;
     display:flex;
     align-items: center;
     
@@ -121,8 +119,7 @@ body {
 
 
 .top-bar-search-icon{
-    margin-left:5%;
-    /* background-color: yellow; */
+    background-color: yellow;
     display:flex;
     align-items: center;
     
