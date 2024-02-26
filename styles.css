@@ -8,17 +8,17 @@
     padding-right:0.5rem;
 }
 
-
+/* phone size */
 @media (max-width: 639px) {
     .container {
-        min-width:640px;
+        min-width:340px;
         border:2px solid pink;
         background-color: pink;
     }
 
 }
 
-
+/* ipad size */
 @media (min-width: 640px) {
     .container {
         max-width:640px;
@@ -27,7 +27,7 @@
     }
 
 }
-
+/* labtop size */
 @media (min-width: 1024px) {
     .container {
         max-width:1024px;
@@ -36,6 +36,7 @@
     }
 
 }
+/* large screen size */
 @media (min-width: 1536px) {
     .container {
         max-width:1536px;
