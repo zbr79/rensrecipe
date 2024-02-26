@@ -75,8 +75,17 @@ body {
 
 .top-bar {
     height: 10%;
-    background-color: rgb(255, 82, 2);
+    background-color: rgb(251, 117, 40);
     margin-bottom: 5%;
+    display:flex;
+    flex-direction: row;
+}
+
+.top-bar-limiter {
+    height: 100%;
+    width: 90%;
+    margin-left:5%;
+    /* background-color: rgb(15, 236, 11); */
     display:flex;
     flex-direction: row;
 }
@@ -92,6 +101,36 @@ body {
     height: 50%; 
     width: auto; 
 }
+
+
+.top-bar-website-icon{
+    margin-left:5%;
+    /* background-color: yellow; */
+    display:flex;
+    align-items: center;
+    
+}
+.top-bar-website-icon img {
+    
+    height: 50%; 
+    width: auto; 
+}
+
+
+.top-bar-search-icon{
+    margin-left:5%;
+    /* background-color: yellow; */
+    display:flex;
+    align-items: center;
+    
+}
+.top-bar-search-icon img {
+    
+    height: 50%; 
+    width: auto; 
+}
+
+
 
 
 
