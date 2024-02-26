@@ -8,6 +8,17 @@
     padding-right:0.5rem;
 }
 
+
+@media (min-width: 475px) {
+    .container {
+        max-width:640px;
+        border:2px solid pink;
+        background-color: pink;
+    }
+
+}
+
+
 @media (min-width: 640px) {
     .container {
         max-width:640px;
