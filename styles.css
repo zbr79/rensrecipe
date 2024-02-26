@@ -86,7 +86,7 @@ body {
     width: 90%;
     margin-left:5%;
 
-    justify-content: space-between;
+    justify-content: left;
 
     background-color: rgb(15, 236, 11);
     display:flex;
@@ -128,7 +128,7 @@ body {
 
     justify-content: space-between;
 
-    
+
     background-color: yellow;
     display:flex;
     align-items: center;
