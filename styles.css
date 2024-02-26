@@ -23,7 +23,7 @@
     .container {
         max-width:640px;
         height:100%;
-        background-color: black;
+        background-color: gray;
     }
 
 }
@@ -32,7 +32,7 @@
     .container {
         max-width:1024px;
         height:100%;
-        background-color: purple;
+        background-color: rgb(87, 17, 87);
     }
 
 }
@@ -74,12 +74,38 @@ body {
 }
 
 .top-bar {
-    margin-left:5%;
-    width: 90%;
     height: 10%;
     background-color: rgb(255, 82, 2);
     margin-bottom: 5%;
+    display:flex;
+    flex-direction: row;
 }
+.top-bar-menu{
+    margin-left:5%;
+    /* background-color: yellow; */
+    display:flex;
+    align-items: center;
+    
+}
+.top-bar-menu img {
+    
+    height: 50%; 
+    width: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .search-bar-section{
     margin-left:5%;
@@ -96,7 +122,7 @@ body {
      /* border: 1px solid rgb(255, 75, 75);  */
 }
 .whole-catalog-name{
-   
+   margin-left:1%;
     margin-bottom: 2%;
     font-weight: bold;
     color: black;
