@@ -98,13 +98,13 @@ body {
     background-color: yellow;
     display:flex;
     align-items: center;
+    width:20%
 
     
 }
 .top-bar-menu img {
     
     height: 50%; 
-    width: auto; 
 }
 
 
@@ -115,6 +115,7 @@ body {
     display:flex;
     align-items: center;
     border-radius: 50px;
+    width:60%;
     
 }
 .top-bar-website-icon img {
@@ -125,7 +126,7 @@ body {
 
 
 .top-bar-search-icon{
-
+    width:20%;
     justify-content: space-between;
 
 
