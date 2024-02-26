@@ -82,7 +82,7 @@ body {
 }
 
 .top-bar-limiter {
-    background-color: rgb(15, 236, 11);
+    /* background-color: rgb(15, 236, 11); */
 
     height: 100%;
     width: 90%;
@@ -93,7 +93,7 @@ body {
     justify-content: space-between;
 }
 .top-bar-menu{
-    background-color: yellow;
+    /* background-color: yellow; */
  
     width:20%;
 
@@ -117,6 +117,7 @@ body {
     border-radius: 100px;
     width:60%;
     
+    
 }
 .top-bar-website-icon img {
     height: 50%; 
@@ -130,7 +131,7 @@ body {
     justify-content: center;
 
 
-    background-color: yellow;
+    /* background-color: yellow; */
     display:flex;
     align-items: center;
     
