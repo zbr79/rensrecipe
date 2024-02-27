@@ -25,7 +25,7 @@
     .container {
         max-width:640px;
         height:100%;
-        /* background-color: gray; */
+        background-color: gray;
     }
 
 }
@@ -34,7 +34,7 @@
     .container {
         max-width:1024px;
         height:100%;
-        /* background-color: rgb(87, 17, 87); */
+        background-color: rgb(87, 17, 87);
     }
 
 }
@@ -68,7 +68,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height:100vh;
+
     
     a {
         text-decoration: none;
@@ -158,7 +159,6 @@ body {
     width: auto; 
 }
 
-
 .space-for-top-bar{
     top:0%;
     width: 100%;
@@ -169,22 +169,147 @@ body {
 
 
 
+.sidenavbar{
+    position: fixed;
+    min-height: 100vh;
+    height:100vh;
+    width:auto;
+    font-size:25px;
+    
+    padding: 0;
 
+    /* border: 4px solid red; */
+    background-color:rgba(255, 255, 255, 1);
+    z-index: 1001;
 
+    display: none;
+    flex-direction: column;
+    
+}
 
+.side-bar-top{
 
-
-
-
-
-
-.search-bar-section{
     margin-left:5%;
     width: 90%;
     height:10%;
-    margin-bottom:5%;
-    border:2px solid white;
+    padding:0;
+
+    justify-content: center;
+
+    border:4px solid purple;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* background-color: green; */
+
+    /* overflow: hidden; */
+
 }
+
+    
+.side-icon-main{
+    display:inline-block;
+    /* border:3px solid red; */
+    max-width: 60%;
+    height:100%;
+}
+
+.side-icon-main img{
+    display:inline-block;
+    object-fit: contain;
+    height:100%;
+    max-width: 100%;
+    /* border:3px solid yellow; */
+
+} 
+
+.side-icon-close{
+    display:inline-block;
+    
+    max-width: 15%;
+    height:100%;
+/* 
+    border:3px solid red; */
+
+}
+
+.side-icon-close img{
+    display:inline-block;
+    object-fit: contain;
+    height:100%;
+    max-width: 100%;
+    /* border:3px solid yellow; */
+
+} 
+
+nav ul{
+    flex:1;
+    margin-left:5%;
+    width:90%;
+    height:auto;
+    padding: 0;
+
+    list-style: none;
+
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    border: 5px solid green;
+
+
+}
+
+
+
+nav li{
+    margin-left:3%;
+    display:block;
+    width:100%;
+
+    height:10%;
+    /* border: 4px solid blue; */
+}
+
+nav a{
+    height:100%;
+
+    text-decoration: none;
+    align-items: center;
+    color:black;
+    display: flex;
+}
+
+nav a:hover{
+    background-color: gray;
+}
+
+nav ul a:last-child{
+    margin-top:auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .whole-catalog-section {
     margin-left:5%;
