@@ -49,18 +49,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 body {
     margin: 0;
     padding:0;
@@ -167,7 +155,7 @@ body {
 }
 
 
-
+/* ------------------SIDE BAR START------------------ */
 
 .sidenavbar{
     position: fixed;
@@ -266,8 +254,6 @@ nav ul{
 
 }
 
-
-
 nav li{
     margin-left:2.5%;
     display:block;
@@ -297,7 +283,7 @@ nav ul a:last-child{
     
 }
 
-
+/* ------------------SIDE BAR END------------------ */
 
 
 
