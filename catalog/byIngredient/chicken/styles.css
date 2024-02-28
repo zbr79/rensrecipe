@@ -12,6 +12,7 @@
     /* position: relative; */
     /* padding-left: 0.5rem;
     padding-right:0.5rem; */
+
 }
 
 /* phone size */
@@ -63,6 +64,9 @@
         max-width:1024px;
         height:100%;
         background-color:pink;
+        
+    border-left:2px solid white;
+    border-right:2px solid white;
     }
 
     .header{
@@ -111,6 +115,8 @@ body {
 
     
      a {text-decoration: none;} 
+
+     background-color: pink; 
 
 
 }
