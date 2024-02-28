@@ -77,10 +77,10 @@
 body {
 
     line-height: 1;
-    /* margin: 0;
+    margin: 0;
     padding:0;
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     height:100vh; */
@@ -93,6 +93,7 @@ body {
       /* padding-top: 20%; */
 }
 
+/* ------------------HEADER STARTS------------------ */
 
 .space-for-top-bar {
     width:100%;
@@ -100,6 +101,12 @@ body {
     background-color: pink;
     margin-bottom: 5%;
 
+}
+
+.space-for-top-bar{
+    width: 100%;
+    height: 10vh;
+    background-color: pink;
 }
 
 .header {
@@ -150,12 +157,8 @@ body {
 }
 
 
-.space-for-top-bar{
-    width: 100%;
-    height: 10vh;
-    background-color: pink;
-}
 
+/* ------------------HEADER ENDS------------------ */
 
 /* ------------------NAV BAR START------------------ */
 
@@ -241,7 +244,7 @@ nav a:hover{
     margin-left:5%;
     width: 90%;
     height:40%;
-     /* border: 1px solid rgb(255, 75, 75);  */
+     border: 1px solid rgb(255, 75, 75); 
 }
 .whole-catalog-name{
    margin-left:1%;
