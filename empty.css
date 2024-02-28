@@ -95,14 +95,18 @@ body {
 
 /* ------------------HEADER STARTS------------------ */
 
-
-
-.white-spaces{
-    width: 100%;
+.space-for-top-bar {
+    width:100%;
     min-height: 10%;
-    height: 10vh;
     background-color: pink;
     margin-bottom: 5%;
+
+}
+
+.space-for-top-bar{
+    width: 100%;
+    height: 10vh;
+    background-color: pink;
 }
 
 .header {
