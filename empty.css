@@ -95,18 +95,14 @@ body {
 
 /* ------------------HEADER STARTS------------------ */
 
-.space-for-top-bar {
-    width:100%;
-    min-height: 10%;
-    background-color: pink;
-    margin-bottom: 5%;
 
-}
 
-.space-for-top-bar{
+.white-spaces{
     width: 100%;
+    min-height: 10%;
     height: 10vh;
     background-color: pink;
+    margin-bottom: 5%;
 }
 
 .header {
@@ -226,98 +222,6 @@ nav a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main-content {
-    margin-left:5%;
-    width: 90%;
-    height:40%;
-    /* border: 1px solid rgb(255, 75, 75);  */
-}
-.catalog-name{
-   margin-left:1%;
-    margin-bottom: 2%;
-    font-weight: bold;
-    color: black;
-    font-size: 1.5em;
-    text-align: left;
-
-     /* border:5px solid rgb(253, 181, 0); */
-}
-
-.catalog-section{
-    width:100%;
-    height:90%;
-    display:flex;
-    flex-direction: column;
-
-
-    /* border: 2px solid rgb(229, 21, 166)  */
-}
-
-
-.catalog-line-section {
-    width: 100%;
-    height:40%;
-    display:flex;
-    flex-direction: row;
-    /* border: 5px solid rgb(24, 255, 97);  */
-    margin-bottom:2%;
-
-    justify-content: space-around;
-}
-
-
-.sub-catalog-section {
-    display:inline-block;
-    position: relative;
-
-    width: 23%;
-    height: 100%;
-
-    border-radius: 10px;
-    border: 1px solid black; 
-    overflow: hidden;
-    /* margin-bottom:3%; */
-    /* border: 4px solid rgb(26, 37, 240); */
-
-}
-
-
-.sub-catalog-pic {
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-    /* box-sizing: border-box; */
-    /* position: relative; */
-    
-}
-
-
-.sub-catalog-name{
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
-    backdrop-filter: blur(20px); 
-    width:100%;
-    bottom: 0%; 
-    text-align: center;
-    font-weight: bold;
-    color:black;
-   
-   
-}
 
 
 
