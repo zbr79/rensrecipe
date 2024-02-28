@@ -240,13 +240,13 @@ nav a:hover{
 
 
 
-.whole-catalog-section {
+.main-content {
     margin-left:5%;
     width: 90%;
     height:40%;
-     border: 1px solid rgb(255, 75, 75); 
+    /* border: 1px solid rgb(255, 75, 75);  */
 }
-.whole-catalog-name{
+.catalog-name{
    margin-left:1%;
     margin-bottom: 2%;
     font-weight: bold;
