@@ -325,7 +325,7 @@ td {
 .steps-text{
 
     margin-top:5%;
-    border:3px solid white;
+    /* border:3px solid white; */
     font-size:min(6vw,6vh);
     font-weight: bold;
 
@@ -333,14 +333,14 @@ td {
 
 .main-content{
     margin-top:5%;
-    border:3px solid red;
+    /* border:3px solid red; */
     width:90%;
     margin-bottom: 10%;
 
 }
 
 .step-section{
-    border:3px solid blue;
+    /* border:3px solid blue; */
     margin-bottom:2%;
 
 }
