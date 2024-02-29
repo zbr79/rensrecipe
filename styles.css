@@ -142,6 +142,8 @@ body {
 
 #website-icon{
     width:70%;
+    background-color: yellow;
+    border-radius: 40px;
 }
 
 #search-icon{
