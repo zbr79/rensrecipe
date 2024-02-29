@@ -322,6 +322,36 @@ td {
     font-size: 5vw; /* Set the font size as needed */
   }
 
+.steps-text{
+
+    margin-top:5%;
+    border:3px solid white;
+    font-size:6vw;
+    font-weight: bold;
+
+}
+
+.main-content{
+    margin-top:5%;
+    border:3px solid red;
+    width:90%
+
+}
+
+.step-section{
+    border:3px solid blue;
+
+}
+.step-number{
+    font-size:5vw;
+    font-weight: bold;
+
+}
+.step-instru{
+    font-size:4vw;
+
+}
+
 
 
 
