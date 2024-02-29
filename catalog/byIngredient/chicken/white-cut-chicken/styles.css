@@ -314,17 +314,55 @@ nav a:hover{
     /* border:3px solid blue; */
 }
 
+.chart-header{
+    
+    font-size:min(6vw,6vh);
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    border:3px solid black;
+
+}
+
 .chart-title{
     /* border:3px solid white; */
     font-size:min(6vw,6vh);
     font-weight: bold;
+    /* border:3px solid green;; */
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.chart-button{
+    min-height:100%;
+    width:10%;
+    /* border:3px solid green; */
+}
+
+.chart-button img{
+    width:100%;
+    height:100%;
+}
+.flex-section{
+    display: block;
+
+}
 .chart{
-        width: 100%;
-        border-collapse: collapse;
-        table-layout: fixed; /* Fixed table layout */
+
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fixed table layout */
+}
+
+#chart-2{
+    display: none;
 }
 
 td {
