@@ -271,7 +271,7 @@ nav a:hover{
 .page-title{
     margin-top:5%;
     /* border:3px solid red; */
-    font-size:10vw;
+    font-size:min(8vh,6vw);
     font-weight: bold;
 }
 
@@ -289,7 +289,7 @@ nav a:hover{
 }
 .info-text{
     /* border:3px solid blue; */
-    font-size:4vw;
+    font-size:min(5vw,5vh);
     color:gray;
 
 }
@@ -302,7 +302,7 @@ nav a:hover{
 
 .chart-title{
     /* border:3px solid white; */
-    font-size:6vw;
+    font-size:min(6vw,6vh);
     font-weight: bold;
 
 }
@@ -319,14 +319,14 @@ td {
     padding-bottom: 10px;
 
     word-wrap: break-word; /* Wrap text if it exceeds cell width */
-    font-size: 5vw; /* Set the font size as needed */
+    font-size: min(5vw,5vh); /* Set the font size as needed */
   }
 
 .steps-text{
 
     margin-top:5%;
     border:3px solid white;
-    font-size:6vw;
+    font-size:min(6vw,6vh);
     font-weight: bold;
 
 }
@@ -345,13 +345,13 @@ td {
 
 }
 .step-number{
-    font-size:5vw;
+    font-size:min(5vw,4vh);
     font-weight: bold;
     margin-bottom:1%;
 
 }
 .step-instru{
-    font-size:4vw;
+    font-size:min(4vw,4vh);
 
 }
 
