@@ -20,25 +20,11 @@
 
   function changeChart(chart,button) {
 
-    // console.log(chart);
-   
-
     var flexSection = document.getElementById(chart);
  
     const Fbutton = document.getElementById(button);
 
-   
-    // console.log(chart);
-    // console.log(flexSection.style.display);
     var computedStyle = window.getComputedStyle(flexSection);
-
-
-    if (computedStyle.display) {
-      console.log(computedStyle.display);
-
-  } else {
-      console.error('erro!');
-  }
 
 
     if (computedStyle.display === 'block') {
