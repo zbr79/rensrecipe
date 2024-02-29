@@ -28,11 +28,11 @@
     }
 
 
-    .recipe{
+    /* .recipe{
         min-width:90%;
         max-height:20%;
     }
-
+ */
 
 
 }
@@ -268,9 +268,9 @@ nav a:hover{
 }
 .recipe{
     /* border:2px solid black; */
-    width:60%;
+    width:min(90vw,90vh);
     min-height:20%;
-    height:30%;
+    /* height:20%; */
 
     /* padding:5%; */
 
@@ -289,16 +289,17 @@ nav a:hover{
 }
 
 .recipe-pic{
-    height:100%;
+    /* height:100%; */
     width:60%;
     /* border:2px solid yellow; */
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
 
 .recipe-pic img{
     /* height:100%; */
     width:100%;
+    height:auto;
 
 }
 
@@ -331,7 +332,7 @@ nav a:hover{
     /* border:3px solid blue; */
     color:black;
     font-weight: bold;
-    font-size:100%;
+    font-size:max(2.5vw,2.5vh);
 }
 
 
@@ -342,7 +343,7 @@ nav a:hover{
 
     height:20%;
     /* border:3px solid green; */
-    font-size:80%;
+    font-size:max(1.5vw,1.5vh);
     color:gray;
 }
 
