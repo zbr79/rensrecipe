@@ -80,6 +80,7 @@ body {
     line-height: 1;
     margin: 0;
     padding:0;
+    
 
     /* display: flex;
     justify-content: center;
@@ -218,6 +219,16 @@ body {
 
 }
 
+.sidebar a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    background-color:gray;
+
+}
+
+
 .sidebar ul{
     width:90%;
  
@@ -250,9 +261,13 @@ body {
     flex-direction: row; 
     justify-content: space-between; 
     align-items: center;
-;
     /* border: 2px solid purple;  */
 }
+
+.catalog-header-conatainer:hover{
+    background-color:gray;
+}
+
 
 
 .sidebar-catalog-name{
