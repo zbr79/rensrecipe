@@ -10,7 +10,8 @@ function closeSidebar(){
 
 
 function changeImage() {
-  var image = document.getElementById("header-navbar-button");
+  var image = document.getElementById("header-navbar-button").querySelector('img');
+  console.log(image);
 
   // Check the current source and change it to the other image
   if (image.src.match("img/icon/menu.svg")) {
