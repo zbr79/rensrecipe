@@ -27,7 +27,7 @@ function changeImage() {
 
 
 
-function changeChart(chart,button) {
+function changeSideBar(chart,button) {
 
   var flexSection = document.getElementById(chart);
 
@@ -38,11 +38,11 @@ function changeChart(chart,button) {
 
   if (computedStyle.display === 'block') {
       flexSection.style.display = 'none';
-      Fbutton.src = "../../../../img/icon/down.svg";
+      Fbutton.src = "../../../../img/icon/arrow-right.svg";
       
   } else {
       flexSection.style.display = 'block';
-      Fbutton.src = "../../../../img/icon/up.svg";
+      Fbutton.src = "../../../../img/icon/down.svg";
  
 
   }
