@@ -162,9 +162,10 @@ body {
 /* ------------------NAV BAR START------------------ */
 
 .sidebar{
+    overflow-y:auto;
     margin-left:-5%;
 
-    min-height: 80vh;
+    height: 80vh;
 
 
     width:95%;
