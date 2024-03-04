@@ -132,7 +132,7 @@ body {
     max-width:10%;
     height:auto;
     max-height: 100%;
-    border:3px solid blue;
+    /* border:3px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,6 +223,7 @@ body {
 }
 
 .sidebar a{
+    font-size: max(2.5vh,2.5vw);
     color:black;
     text-decoration: none;
 }
@@ -276,14 +277,15 @@ a:hover{
 .sidebar-catalog-name{
     display: inline-block;
     line-height: 2;
-    font-size: 2em;
+    /* font-size: 2em; */
+    font-size: max(4vh,4vw);
     font-weight: bold;
 
     /* border: 2px solid blue;  */
 }
 
 .sidebar img{
-    width: 15%;
+    width: min(15vh,15vw);
     height: auto;
     display:inline-block;
     /* border: 2px solid blue;  */
