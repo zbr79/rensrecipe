@@ -23,3 +23,27 @@ function changeImage() {
     Sidebar.style.display = 'none';
   }
 }
+
+
+
+
+function changeChart(chart,button) {
+
+  var flexSection = document.getElementById(chart);
+
+  const Fbutton = document.getElementById(button);
+
+  var computedStyle = window.getComputedStyle(flexSection);
+
+
+  if (computedStyle.display === 'block') {
+      flexSection.style.display = 'none';
+      Fbutton.src = "../../../../img/icon/down.svg";
+      
+  } else {
+      flexSection.style.display = 'block';
+      Fbutton.src = "../../../../img/icon/up.svg";
+ 
+
+  }
+}
