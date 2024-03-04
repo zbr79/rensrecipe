@@ -145,6 +145,8 @@ body {
 
 .header-main{
     width:60%;
+    height:80%;
+    align-self: center;
     background-color: yellow;
     border-radius: 40px;
 
