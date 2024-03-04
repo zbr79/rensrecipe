@@ -126,6 +126,10 @@ body {
 
     background-color: rgb(251, 117, 40);
     /* border:3px solid rgb(251, 117, 40); */
+
+
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
 }
 
 .header-icons{
@@ -320,7 +324,7 @@ a:hover{
     font-size:1.5em;
     line-height: 2;
 
-    display:flex;
+    display:none;
 
 }
 
