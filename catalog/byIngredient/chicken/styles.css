@@ -145,7 +145,7 @@ body {
     position: sticky;
     top:10%;
     align-self: flex-start;
-    z-index: 11;
+    z-index: 20;
 
     overflow-y:auto;
 
