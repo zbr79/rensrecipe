@@ -130,7 +130,6 @@ body {
     max-height:10vh;
 
 }
-
 #header-navbar-button{
     width:20%;
 }
@@ -251,10 +250,7 @@ a:hover{
     font-weight: bold;
     margin-bottom: 2%;
 }
-
-
 /* NAVBAR HEADER*/
-
 .navbar{
     width:100%;
     position: sticky;
@@ -270,38 +266,28 @@ a:hover{
     
     /* border:5px solid green; */
 }
-
 .navbar-header {
+    /* position: sticky; */
+    /* top:10%; */
+    /* z-index:10; */
     width:100%;
     height:max(10vh,10vw);
-
-    position: sticky;
-    top:10%;
-    z-index:10;
-
-    justify-self: center;
 
     display:flex;
     flex-direction: row;
     justify-content:space-between;
     justify-items: center;
     align-items: center;
+    font-size:max(2.5vh,2.5vw);
 
     background-color: white;
-
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
     border-bottom: 2px solid gray; 
 
-
-    font-size:max(2.5vh,2.5vw);
-   
-
     /* border:5px solid green; */
 }
-
 .navbar-header-left{
     margin-left:5%;
-    
     width:min(30vh,30vw);
     height:50%;
     max-height: 70%;
@@ -310,59 +296,48 @@ a:hover{
     justify-content: left;
     align-items: center;
 
-    
-
     /* border:3px solid red; */
 }
 .navbar-header-left img{
     height:auto;
     width:40%;
     /* border:3px solid blue; */
-}
 
+}
 #navbar-header-left-text{
     display: block;
     width:50%;  
     text-align: left;
+
     /* border:3px solid blue; */
-
 }
-
 .navnavbar-header-right-text{
     text-align: right;
     margin-right:5%;
     width:min(60vh,60vw);
     font-size:max(2.5vh,2.5vw);
     font-weight: bold;
+    background-color: none;
     
     /* border:3px solid purple; */
-    background-color: none;
-
 }
-
 .navbar-header a:hover {
     background-color:white;
 }
-
 /* NAVBAR MENU*/
 .navbar-menu {
+    display:none;
+
     width:100%;
     height: 60vh;
-
-    display:none;
     flex-direction: column; 
-
     background-color: white;
-
     box-shadow: 4px 15px 8px rgba(0, 0, 0, 0.1); 
     border-bottom: 2px solid gray; 
 
     /* border:5px solid green; */
 }
-
 .navbar-menu ul{
-    /* border:3px solid brown; */
-
     display: flex;
     flex-direction: column;
     padding-inline-start: 0px;
@@ -370,10 +345,8 @@ a:hover{
 
     list-style: none;
 
-
-
+    /* border:3px solid brown; */
 }
-
 .navbar-menu ul a{
     width:50%;
     color:black;
@@ -381,31 +354,21 @@ a:hover{
     line-height: 2;
     background-color: rgb(189, 189, 189);
     border-radius: 20px;
-        
     text-decoration: none;
     text-align: center;
-    
     margin-bottom: 3%;
-
-
 }
-
 .navbar-menu ul a:hover{
-   
     background-color: rgb(250, 156, 25);
     border-radius: 20px;
+
     /* border:3px solid blue; */
-
 }
-
 .current-name{
     background-color: rgb(250, 156, 25);
     border-radius: 20px;
 }
-
-
-/* MAIN */
-
+/* ------------------MAIN------------------ */
 .page-title{
     /* border:3px solid red; */
     max-height:30%;
@@ -437,7 +400,6 @@ a:hover{
 
     background-color: white;
 }
-
 .recipe-pic{
     /* height:100%; */
     width:60%;
@@ -445,14 +407,12 @@ a:hover{
     /* overflow: hidden; */
     
 }
-
 .recipe-pic img{
     /* height:100%; */
     width:100%;
     height:auto;
 
 }
-
 .recipe-info{
     margin-left:2.5%;
     margin-right:2.5%;
@@ -471,7 +431,6 @@ a:hover{
     resize: horizontal;
 
 }
-
 .recipe-name{
     display: flex;
     justify-content: center;
@@ -484,8 +443,6 @@ a:hover{
     font-weight: bold;
     font-size:max(2.5vw,2.5vh);
 }
-
-
 .recipe-time,.recipe-tags{
 
     display: flex;
@@ -496,10 +453,7 @@ a:hover{
     font-size:max(1.5vw,1.5vh);
     color:gray;
 }
-
-
 /* ------------------FOOTER------------------ */
-
 .footer{
     min-height:20vh;
     width: 100%;
