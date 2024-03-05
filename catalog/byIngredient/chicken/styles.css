@@ -257,6 +257,10 @@ a:hover{
 }
 /* ------------------MAIN SECTION------------------ */
 
+
+
+
+
 .page-title{
     /* border:3px solid red; */
     max-height:30%;
@@ -347,9 +351,4 @@ a:hover{
     font-size:max(1.5vw,1.5vh);
     color:gray;
 }
-
-
-
-
-
 
