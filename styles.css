@@ -235,15 +235,15 @@ a:hover{
     justify-content: space-between; 
     align-items: center;
     box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.1); 
-    border: 2px solid black; 
-    /* margin-bottom:5%; */
+    border: 1.5px solid black; 
+    margin-bottom:1%;
 }
 
 .sidebar-catalog-name{
     display: inline-block;
     line-height: 2;
     font-size: max(3.5vh,3.5vw);
-    font-weight: bold;
+    font-weight: 550;
 
     /* border: 2px solid blue;  */
 }
@@ -271,7 +271,7 @@ a:hover{
 }
 .sidebar-sub-catalog-list{
 
-
+    margin-top:-1%;
     padding-top:2%;
     justify-self: center;
     margin-left:5%;
@@ -282,7 +282,7 @@ a:hover{
     line-height: 2;
 
     display:flex;
-    margin-bottom:5%;
+    margin-bottom:4%;
     /* padding-left: 10%; */
 
 }
