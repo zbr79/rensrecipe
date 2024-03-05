@@ -1,7 +1,7 @@
 
 // scipt for top bar's sidebar buttton picture change
 function changeImage() {
-  var image = document.getElementById("header-navbar-button").querySelector('img');
+  var image = document.getElementById("sidebar-button").querySelector('img');
   console.log(image);
 
   // Check the current source and change it to the other image
