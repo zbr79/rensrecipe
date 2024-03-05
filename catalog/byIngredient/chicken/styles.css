@@ -255,10 +255,33 @@ a:hover{
 
 /* NAVBAR HEADER*/
 
+.navbar{
+    width:100%;
+    /* height:max(70vh,70vw); */
+
+    position: sticky;
+    top:10%;
+    z-index:11;
+
+    background-color: white;
+
+    display:flex;
+    flex-direction: column;
+
+    /* justify-content:space-between; */
+    justify-items: center;
+    align-items: start;
+
+    /* border:2px solid green; */
+
+    margin-bottom:5%;
+
+
+}
+
 .navbar-header {
     width:100%;
     height:max(10vh,10vw);
-
 
     position: sticky;
     top:10%;
@@ -274,7 +297,7 @@ a:hover{
 
     background-color: white;
 
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1); 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
     border-bottom: 2px solid gray; 
 
     /* margin-bottom:5%; */
@@ -339,15 +362,15 @@ a:hover{
 /* NAVBAR MENU*/
 .navbar-menu {
 
-    overflow-y:auto;
-    position: sticky;
-    top:20vh;
+    /* overflow-y:auto; */
+    /* position: sticky; */
+    /* top:20vh; */
     
     width:100%;
-    min-height: 60vh;
+    height: 60vh;
 
 
-    z-index:10;
+    /* z-index:10; */
 
 
     /* display:flex;  */
@@ -359,65 +382,15 @@ a:hover{
 
     box-shadow: 4px 15px 8px rgba(0, 0, 0, 0.1); 
     border-bottom: 2px solid gray; 
-    margin-bottom:5%;
+
 
     /* border:5px solid green; */
 
 }
 
-.navbar-menu-header{
-    width:100%;
-    height:max(10vh,10vw);
-    
 
-    display:flex;
 
-    justify-content: space-between;
-    align-items: center;
-
-    /* border:3px solid green; */
-
-}
-.navbar-menu-header-left{
-
-    width:min(30vw,30vh);
-    margin-left:5%;
-    max-height: 70%;
-    font-size:bold;
-
-    /* border:3px solid red; */
-    font-size:max(2.5vh,2.5vw);
- 
-}
-.navbar-menu-header-left img{
-    width:40%;
-    height:auto;
-    font-size:bold;
-
-    /* border:3px solid red; */
-    font-size:max(2.5vh,2.5vw);
-
-}
-.navbar-menu-header a{
-    width:min(60vh,60vw);
-    height:auto;
-    margin-right:5%;
-    font-weight:bold;
-
-    /* border:3px solid purple; */
-    font-size:max(2.5vh,2.5vw);
-
- 
-    text-align: right;
-
-}
-
-.navbar-menu-content{
-    flex:1;
-    /* border:3px solid red; */
-}
-
-.navbar-menu-content ul{
+.navbar-menu ul{
     /* border:3px solid brown; */
 
     display: flex;
@@ -430,7 +403,7 @@ a:hover{
 
 }
 
-.navbar-menu-content ul a{
+.navbar-menu ul a{
     width:50%;
         /* margin-left:min(5vw,5vh); */
         color:black;
@@ -449,7 +422,7 @@ a:hover{
 
 }
 
-.navbar-menu-content ul a li{
+.navbar-menu ul a li{
    
     list-style: none;
     color:black;
@@ -458,7 +431,7 @@ a:hover{
 
 }
 
-.navbar-menu-content ul a:hover{
+.navbar-menu ul a:hover{
    
     background-color: rgb(250, 156, 25);
     border-radius: 20px;

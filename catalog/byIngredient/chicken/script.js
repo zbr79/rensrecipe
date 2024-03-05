@@ -57,6 +57,8 @@ function changeNavBar() {
       Fbutton.src = "/IMG/icon/down.svg";
       changeText.style.display = 'block';
       headerBorder.style.borderBottom = '2px solid gray'
+
+      headerBorder.style.boxShadow ='10px 10px 10px rgba(0, 0, 0, 0.1)'; 
       console.log("if");
       
   } else {
@@ -64,6 +66,7 @@ function changeNavBar() {
       Fbutton.src = "/IMG/icon/up.svg";
       changeText.style.display = 'none';
       headerBorder.style.borderBottom = '0px';
+      headerBorder.style.boxShadow ='0px 0px 0px rgba(0, 0, 0, 0.1)'; 
       console.log("else");
  
 
