@@ -257,26 +257,18 @@ a:hover{
 
 .navbar{
     width:100%;
-    /* height:max(70vh,70vw); */
-
     position: sticky;
     top:10%;
     z-index:11;
 
-    background-color: white;
-
     display:flex;
     flex-direction: column;
-
-    /* justify-content:space-between; */
     justify-items: center;
     align-items: start;
 
-    /* border:2px solid green; */
-
-    margin-bottom:5%;
-
-
+    background-color: white;
+    
+    /* border:5px solid green; */
 }
 
 .navbar-header {
