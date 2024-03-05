@@ -45,7 +45,7 @@ function changeNavBar() {
 
   const Fbutton = document.getElementById('navbar-button');
 
-  const changeText = document.getElementById('navbar-title');
+  const changeText = document.getElementById('navbar-header-left-text');
 
   var headerBorder = document.querySelector('.navbar-header');
 
