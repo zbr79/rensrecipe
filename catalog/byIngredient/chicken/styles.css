@@ -274,11 +274,13 @@ a:hover{
 
     background-color: white;
 
-    box-shadow: 4px 15px 8px rgba(0, 0, 0, 0.1); 
-    /* border-bottom: 2px solid gray;  */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1); 
+    border-bottom: 2px solid gray; 
+
     /* margin-bottom:5%; */
 
     font-size:max(2.5vh,2.5vw);
+   
 
     /* border:5px solid green; */
 }
@@ -293,6 +295,8 @@ a:hover{
     flex-direction: row;
     justify-content: left;
     align-items: center;
+
+    
 
     /* border:3px solid red; */
 }
@@ -322,7 +326,12 @@ a:hover{
     font-weight: bold;
     
     /* border:3px solid purple; */
+    background-color: none;
 
+}
+
+.navbar-header a:hover {
+    background-color:white;
 }
 
 /* NAVBAR MENU*/
@@ -339,8 +348,8 @@ a:hover{
     z-index:10;
 
 
-    display:flex; 
-    /* display:none; */
+    /* display:flex;  */
+    display:none;
     flex-direction: column; 
 
 
@@ -376,9 +385,7 @@ a:hover{
 
     /* border:3px solid red; */
     font-size:max(2.5vh,2.5vw);
-
-    
-
+ 
 }
 .navbar-menu-header-left img{
     width:40%;
@@ -492,7 +499,7 @@ a:hover{
 
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); 
 
-    margin-bottom: 5%;
+    margin-top: 5%;
 
     background-color: white;
 }
