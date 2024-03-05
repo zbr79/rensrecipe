@@ -306,11 +306,13 @@ a:hover{
     /* border:3px solid blue; */
 }
 
-.navbar-title{
+#navbar-title{
+    display: block;
     width:50%;
     /* height:100%; */
    
     text-align: left;
+    /* color:blue; */
 
 
 

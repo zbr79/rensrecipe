@@ -45,6 +45,8 @@ function changeNavBar() {
 
   const Fbutton = document.getElementById('navbar-button');
 
+  const changeText = document.getElementById('navbar-title');
+
   var headerBorder = document.querySelector('.navbar-header');
 
   // var computedStyle = window.getComputedStyle(flexSection);
@@ -53,12 +55,14 @@ function changeNavBar() {
   if (flexSection.style.display === 'block') {
       flexSection.style.display = 'none';
       Fbutton.src = "/IMG/icon/down.svg";
+      changeText.style.display = 'block';
       headerBorder.style.borderBottom = '2px solid gray'
       console.log("if");
       
   } else {
       flexSection.style.display = 'block';
       Fbutton.src = "/IMG/icon/up.svg";
+      changeText.style.display = 'none';
       headerBorder.style.borderBottom = '0px';
       console.log("else");
  
