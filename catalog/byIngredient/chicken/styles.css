@@ -275,8 +275,8 @@ a:hover{
     background-color: white;
 
     box-shadow: 4px 15px 8px rgba(0, 0, 0, 0.1); 
-    border-bottom: 2px solid gray; 
-    margin-bottom:5%;
+    /* border-bottom: 2px solid gray;  */
+    /* margin-bottom:5%; */
 
     font-size:max(2.5vh,2.5vw);
 
@@ -328,14 +328,15 @@ a:hover{
 /* NAVBAR MENU*/
 .navbar-menu {
 
+    overflow-y:auto;
     position: sticky;
-    top:10%;
+    top:20vh;
     
     width:100%;
     min-height: 60vh;
 
 
-    z-index:15;
+    z-index:10;
 
 
     display:flex; 
