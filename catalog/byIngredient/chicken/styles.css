@@ -139,7 +139,7 @@ body {
 /* ------------------SIDE BAR------------------ */
 .sidebar{
 
-    height: max(80vh,80vw);
+    height: max(90vh,90vw);
     width:min(90vw,90vh);
 
     position: sticky;
@@ -399,6 +399,9 @@ a:hover{
     margin-top: 5%;
 
     background-color: white;
+}
+.recipe:hover {
+    background-color:white;
 }
 .recipe-pic{
     /* height:100%; */
