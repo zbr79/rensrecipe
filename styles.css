@@ -10,7 +10,6 @@
     margin-right:auto;
     position: relative;
 }
-
 @media (max-width: 639px) {/* phone size */
     .container {
         min-width:340px;

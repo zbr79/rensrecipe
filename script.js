@@ -1,14 +1,5 @@
-function showSidebar(){
-  const sidebar = document.querySelector('.navbar')
-  sidebar.style.display = 'flex';
-} 
 
-function closeSidebar(){
-  const Sidebar = document.querySelector('.navbar')
-  Sidebar.style.display = 'none';
-} 
-
-
+// scipt for top bar's sidebar buttton picture change
 function changeImage() {
   var image = document.getElementById("header-navbar-button").querySelector('img');
   console.log(image);
@@ -25,9 +16,7 @@ function changeImage() {
   }
 }
 
-
-
-
+// script for sidebar's toggle
 function changeSideBar(chart,button) {
 
   var flexSection = document.getElementById(chart);
