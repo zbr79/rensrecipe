@@ -140,7 +140,7 @@ body {
 /* ------------------SIDE BAR------------------ */
 .sidebar{
 
-    height: max(60vh,60vw);
+    height: max(80vh,80vw);
     width:min(90vw,90vh);
 
     position: sticky;
