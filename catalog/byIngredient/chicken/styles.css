@@ -556,3 +556,13 @@ a:hover{
     color:gray;
 }
 
+
+/* ------------------FOOTER------------------ */
+
+.footer{
+    min-height:20vh;
+    width: 100%;
+    background-color: pink;
+}
+
+
