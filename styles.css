@@ -234,9 +234,9 @@ a:hover{
     flex-direction: row; 
     justify-content: space-between; 
     align-items: center;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.1); 
     border: 2px solid black; 
-    margin-bottom:5%;
+    /* margin-bottom:5%; */
 }
 
 .sidebar-catalog-name{
@@ -270,10 +270,12 @@ a:hover{
     border: none;
 }
 .sidebar-sub-catalog-list{
+    padding-top:5%;
     justify-self: center;
-    /* margin-left:10%; */
-    width:100%;
-    /* border: 5px solid purple;  */
+    margin-left:5%;
+    width:90%;
+    border: 1.5px solid black; 
+    border-top: none;
     font-size:1.5em;
     line-height: 2;
 
@@ -296,6 +298,7 @@ a:hover{
     /* border: 2px solid black; */
     /* border-bottom: 1px solid black; */
     font-weight: bold;
+    margin-bottom: 2%;
 }
 
 
