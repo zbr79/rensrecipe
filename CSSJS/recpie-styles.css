@@ -325,11 +325,16 @@ a:hover{
     /* min-height:100%; */
     width:10%;
     border:3px solid green;
+    
+    display: flex;
+    align-items: center;
 }
 
 .chart-button img{
     width:100%;
     height:auto;
+    max-height: 50px;
+
 }
 .flex-section{
     display: block;
