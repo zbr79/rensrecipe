@@ -324,7 +324,7 @@ a:hover{
 .chart-button{
     /* min-height:100%; */
     width:10%;
-    /* border:3px solid green; */
+    border:3px solid green;
 }
 
 .chart-button img{
