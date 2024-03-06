@@ -292,13 +292,13 @@ a:hover{
 
 .chart-section{
     margin-top:2%;
-    width:80%;
+    width:90%;
     /* border:3px solid blue; */
 }
 
 .chart-header{
     
-    font-size:6vw;
+    font-size:min(6vw,6vh);
     font-weight: bold;
     max-height: 10%;
 
@@ -313,7 +313,7 @@ a:hover{
 
 .chart-title{
     font-weight: bold;
-    border:3px solid green;;
+    /* border:3px solid green; */
 
     display:flex;
     justify-content: center;
@@ -324,7 +324,7 @@ a:hover{
 .chart-button{
     /* min-height:100%; */
     width:10%;
-    border:3px solid green;
+    /* border:3px solid green; */
     
     display: flex;
     align-items: center;
@@ -333,7 +333,7 @@ a:hover{
 .chart-button img{
     width:100%;
     height:auto;
-    max-height: 50px;
+    max-height: max(5vh,5vw);
 
 }
 .flex-section{
