@@ -1,168 +1,214 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <title>蜜汁鸡翅</title>
-    <link rel="icon" type="image/png" href="../../../img/ren-icon.png">
+    <link rel="stylesheet" href="/CSSJS/recpie-styles.css">
+    <script src="/CSSJS/recipe-script.js" defer></script>
+    <title>任家厨房</title>
+    <link rel="icon" type="image/png" href="/IMG/icon/ren-icon.png">
 </head>
 
 
 <body>
+  <div class="container">
+<!-- ----------------------HEADER--------------------------------- -->
+    <container class ="header">
 
-    <div class="container">
-        <container class ="header">
-          <div class ="header-elements" >
-            <img id ="header-navbar-button"onclick= changeImage() src="../../../../img/icon/menu.svg">
-          </div>
-    
-          
-          <div class ="header-elements"id="website-icon">
-            <img src="../../../../img/icon/rensrecipe.png">
-          </div>
-          
-    
-          <div class ="header-elements"id="search-icon">
-            <img src="../../../../img/icon/search.svg"></div>
-          
-        </container>
+      <div class ="header-icons"id = "sidebar-button" onclick= changeImage()><img src="/IMG/icon/menu.svg"></div>
+      <a href="/index.html" class="header-main"><img src="/IMG/icon/rensrecipe.png"></a>
+      <div class ="header-icons"><img src="/IMG/icon/search.svg"></div>
   
-        <div class ="white-spaces">1</div>
-           
-  
- 
-  <!-- ----------------------NAV BAR--------------------------------- -->
-        <nav class ="navbar">
-        
+    </container> 
+<!-- ----------------------SIDE BAR--------------------------------- -->
+    <div class ="sidebar">
+      <ul>
+
+        <li>                           <!--  SIDE BAR CATALOG 1       -->
+            <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-1','sublist-1-button')">
+              <div class ="sidebar-catalog-name">时令食材</div>
+              <img class ="sub-catalog-pic" id="sublist-1-button"src="/IMG/icon/arrow-right.svg"></img>
+            </div>
+            <div class="sidebar-sub-catalog-list"id="sidebar-sublist-1">
+              <ul>
+                <li><img src="/IMG/icon/sidebar/chicken.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/chicken/chicken-menu.html">鸡肉</a></li>
+                <li><img src="/IMG/icon/sidebar/pork.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/Pork/pork-menu.html">猪肉</a></li>
+                <li><img src="/IMG/icon/sidebar/fish.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/fish/fish-menu.html">鱼肉</a></li>
+                <li><img src="/IMG/icon/sidebar/sheep.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/lambNbeef/lambNbeef.html">牛羊</a></li>
+                <li><img src="/IMG/icon/sidebar/seafood.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/seafood/seafood-menu.html">海鲜</a></li>
+                <li><img src="/IMG/icon/sidebar/egg.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/egg/egg-menu.html">鸡蛋</a></li>
+                <li><img src="/IMG/icon/sidebar/tofu.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/tofu/tofu-menu.html">豆腐</a></li>
+                <li><img src="/IMG/icon/sidebar/vege.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/vegetable/vege-menu.html">蔬菜</a></li>
+              </ul>
+            </div>
+        </li>
+
+        <li>                           <!--  SIDE BAR CATALOG 2       -->
+
+          <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-2','sublist-2-button')">
+            <div class ="sidebar-catalog-name">菜式</div>
+            <img  class ="sub-catalog-pic" id="sublist-2-button"src="/IMG/icon/arrow-right.svg">
+          </div>
+
+          <div class="sidebar-sub-catalog-list"id="sidebar-sublist-2">
             <ul>
-            <li><a href ="#">主页</a></li>
-            <li><a href ="#">时令食材</a></li>
-            <li><a href ="#">热门分类</a></li>
-            <li><a href ="#">菜系</a></li>
-            <li><a href ="#">风味人间</a></li>
-            <li><a href ="#">关于</a></li> 
-            </ul> 
-        
-        
-        
-        </nav> 
-<!-- ----------------------NAV BAR--------------------------------- -->
+              <li><img src="/IMG/icon/sidebar/hot.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/hot/hot-menu.html">热菜</a></li>
+              <li><img src="/IMG/icon/sidebar/snack.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/snack/snack-menu.html">小吃</a></li>
+              <li><img src="/IMG/icon/sidebar/salad.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/salad/salad-menu.html">素菜</a></li>
+              <li><img src="/IMG/icon/sidebar/main.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/main/main-menu.html">主食</a></li>
+              <li><img src="/IMG/icon/sidebar/bites.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/bites/bites-menu.html">点心</a></li>
+              <li><img src="/IMG/icon/sidebar/soup.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/soup/soup-menu.html">靓汤</a></li>
+              <li><img src="/IMG/icon/sidebar/cold.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/cold/cold-menu.html">冷盘</a></li>
+              <li><img src="/IMG/icon/sidebar/dessert.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/dessert/dessert-menu.html">甜品</a></li>
+            </ul>
+          </div>  
+        </li>
 
+        <li>                           <!--  SIDE BAR CATALOG 3       -->
+          <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-3','sublist-3-button')">
+            <div class ="sidebar-catalog-name">大江南北</div>
+            <img  class ="sub-catalog-pic" id="sublist-3-button"src="/IMG/icon/arrow-right.svg">
+          </div>
 
+          <div class="sidebar-sub-catalog-list"id="sidebar-sublist-3">
+            <ul>
+              <li><img src="/IMG/icon/sidebar/cantonese.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byCusine/cantonese/contonese-menu.html">粤菜</a></li>
+              <li><img src="/IMG/icon/sidebar/chaoshan.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byCusine/chaoshan/chaoshan-menu.html">潮汕</a></li>
+              <li><img src="/IMG/icon/sidebar/northeast.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byCusine/northeast/northeast-menu.html">东北</a></li>
+              <li><img src="/IMG/icon/sidebar/spicy.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byCusine/spicy/spicy-menu.html">川湘</a></li>
+            </ul>
+        </li>
 
+        <li >                           <!--  SIDE BAR CATALOG 4       -->
 
-
-<!-- -----------------!!!!!-MAIN CONTENT!!!!!---------------------- -->
-
+          <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-4','sublist-4-button')">
+            <div class ="sidebar-catalog-name">风味人间</div>
+            <img  class ="sub-catalog-pic" id="sublist-4-button"src="/IMG/icon/arrow-right.svg">
+          </div>
     
-    <div class ="page-pic">
-        <img src="pic.jpg">
-    </div>
+    
+    
+        
+          <div class="sidebar-sub-catalog-list"id="sidebar-sublist-4">
+    
+            <ul>
+    
+              <li><img src="/IMG/icon/sidebar/korean.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byGlobal/korean/korean-menu.html">韩式</a></li>
+              <li><img src="/IMG/icon/sidebar/japan.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byGlobal/japanese/japanese.html">日式</a></li>
+              <li><img src="/IMG/icon/sidebar/mexican.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byGlobal/mexcian/mexcian.html">墨西哥</a></li>
+              <li><img src="/IMG/icon/sidebar/western.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byGlobal/western/western-menu.html">欧美</a></li>
+      
+            </ul>
+        </li>
+      </ul> 
+    </div> 
 
-    <div class = "page-title">蜜汁鸡翅</div>
 
-    <div class="page-sub-title">
-        <div class = "info-text">15-20分钟</div>
-        <div class = "info-text">3人份</div>
-    </div>
 
-    <div class ="chart-section">
-        <div onclick="changeChart('chart-1','chart-1-button')" class="chart-header">
-            <div class = "chart-title">用料</div>
-            <div  class = "chart-button">
-                <img class="chart-button-img" id="chart-1-button"src="../../../../img/icon/up.svg" >
-            </div>
+<!-- ----------------------MAIN STARTS--------------------------------- -->
+<div><img class ="page-pic" src="pic.jpg"></div>
+
+<div class = "page-title">蜜汁鸡翅</div>
+
+<div class="page-sub-title">
+    <div class = "info-text">60分钟</div>
+    <div class = "info-text">3+人份</div>
+</div>
+
+<div class ="chart-section">
+    <div onclick="changeChart('chart-1','chart-1-button')" class="chart-header">
+        <div class = "chart-title">用料</div>
+        <div  class = "chart-button">
+            <img class="chart-button-img" id="chart-1-button"src="/IMG/icon/up.svg" >
         </div>
-        <div class = "flex-section"id = "chart-1">
-
-            <table class ="chart" border="1">
-                <tr><td>鸡中翅</td><td>15只</td></tr>
-
-            </table>  
-                
-
-
-        </div>
-
     </div>
+    <div class = "flex-section"id = "chart-1">
 
-    <div class ="chart-section">
-
-        <div onclick="changeChart('chart-2','chart-2-button')" class="chart-header">
-            <div class = "chart-title">酱料（点击打开）</div>
-            <div  class = "chart-button">
-                <img class="chart-button-img" id="chart-2-button"src="../../../../img/icon/down.svg" >
-            </div>
-        </div>
-
-
-        <!-- <div class="chart-title">酱料</div> -->
-        <div class = "flex-section"id="chart-2">
-
-            <table class ="chart"border="1">
-                <tr><td>生抽</td><td>30g</td></tr>
-                <tr><td>白糖</td><td>20g</td> </tr>
-                <tr><td>料酒</td><td>15ml</td></tr>
-                <tr><td>蜂蜜</td><td>15ml</td></tr>
-                <tr><td>耗油</td><td>10ml</td></tr>
-                <tr><td>清水</td><td>50ml</td></tr>           
-            </table>  
-            
+        <table class ="chart" border="1">
+            <tr><td>贵妃鸡</td><td>1只（2.5斤内）</td></tr>
+            <tr><td>葱结</td><td>1个</td></tr> 
+            <tr><td>姜片</td><td>2片</td></tr> 
+        </table>  
             
 
 
-        </div>
+    </div>
+</div>
 
+<div class ="chart-section">
+
+    <div onclick="changeChart('chart-2','chart-2-button')" class="chart-header">
+        <div class = "chart-title">酱料（点击打开）</div>
+        <div  class = "chart-button">
+            <img class="chart-button-img" id="chart-2-button"src="/IMG/icon/down.svg" >
+        </div>
     </div>
 
 
-    <div class = "steps-text">做法步骤</div>
+    <!-- <div class="chart-title">酱料</div> -->
+    <div class = "flex-section"id="chart-2">
+
+        <table class ="chart"border="1">
+            <tr><td>姜蓉</td><td>45g</td></tr>
+            <tr><td>葱末</td><td>45g</td> </tr>
+            <tr><td>红葱头</td><td>22.5g</td></tr>
+            <tr><td>鸡精</td><td>2.5g</td></tr>
+            <tr><td>盐</td><td>2.5g</td></tr>
+            <tr><td>热油</td><td>适量</td></tr>           
+        </table>  
+        
+        
+
+
+    </div>
+
+</div>
+
+
+<div class = "steps-text">做法步骤</div>
 
 <div class="main-content">
 
 
-    <div class = "step-section">
-        <div class = "step-number">步骤1：腌制</div>
-        <div class = "step-instru">正面切3刀花刀，背面用叉子/牙签戳几下。<br>加料酒和生抽腌制3小时。</div>
-    </div>
+<div class = "step-section">
+    <div class = "step-number">步骤1：3提3放</div>
+    <div class = "step-instru">加入葱结一个，姜两片，烧开水，将鸡垂直放入10秒，再拿起来10秒。重复3次。<br>水需要完全没过鸡的表面。</div>
+</div>
 
-    <div class = "step-section">
-        <div class = "step-number">步骤2：配置酱汁</div>
-        <div class = "step-instru">鸡翅两面煎至金黄，加入酱汁煮沸。</div>
-    </div>
-
-
-    <div class = "step-section">
-        <div class = "step-number">步骤3：</div>
-        <div class = "step-instru">中火焖3分钟，翻面，加少许老抽，再闷3分钟。</div>
-    </div>
-
-    <div class = "step-section">
-        <div class = "step-number">步骤4：</div>
-        <div class = "step-instru">撒葱花出锅。</div>
-    </div>
+<div class = "step-section">
+    <div class = "step-number">步骤2：</div>
+    <div class = "step-instru">开小火保持“虾眼水”浸泡25-35分钟。<br>用筷子戳鸡腿和鸡胸位置，如果流出来的汁水不是红的就是好了。</div>
+</div>
 
 
-    
+<div class = "step-section">
+    <div class = "step-number">步骤3：</div>
+    <div class = "step-instru">准备好冰水冰块，鸡出锅立刻放入</div>
+</div>
+
+<div class = "step-section">
+    <div class = "step-number">步骤4：</div>
+    <div class = "step-instru">鸡冷却后拿出，在鸡皮上涂抹一层油保持色泽</div>
+</div>
+
+<div class = "step-section">
+    <div class = "step-number">步骤5：姜蓉</div>
+    <div class = "step-instru">姜蓉45葱末45红葱头22.5鸡精2.5盐2.5，搅拌均匀淋入热油</div>
+</div>
+
+<div class = "step-section">
+    <div class = "step-number">步骤6：</div>
+    <div class = "step-instru">斩鸡</div>
+</div>
+
+
 
 
 </div>
 
 
 
-
-
-
-
-
-
-
-
-    <!-- -----------------!!!!!-MAIN CONTENT ENDS!!!!!---------------------------- -->
-
-</div>
+<!-- ----------------------MAIN ENDS--------------------------------- -->
+<div class="footer"></div>
 
 </body>
 
