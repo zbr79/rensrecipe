@@ -1,47 +1,29 @@
+/* ----------RESPONSIVE DESIGN---------- */
 .container {
     width: 100%;
     min-height:100vh;
+
     display:flex;
     flex-direction: column;
-
     align-items: center;
-
-    /* justify-content: flex-end; */
     margin-left:auto;
     margin-right:auto;
-    /* position: relative; */
-    /* padding-left: 0.5rem;
-    padding-right:0.5rem; */
-
+    position: relative;
 }
-
-/* phone size */
-@media (max-width: 639px) {
+@media (max-width: 639px) {/* phone size */
     .container {
         min-width:340px;
         min-height:100vh;
-    
         background-color: pink;
-        /* margin-top:10%; */
-
-        
     }
-
-
-    .recipe{
-        min-width:90%;
-        max-height:20%;
-    }
-
-
 
 }
-/* ipad size */
-@media (min-width: 640px) {
+
+@media (min-width: 640px) {/* ipad size */
     .container {
         max-width:640px;
         min-height:100vh;
-        background-color: orange;
+        background-color: gray;
     }
     .header{
         max-width: 640px;
@@ -50,24 +32,14 @@
     .navbar{
         max-width: 640px;
     }
-    
-    .recipe{
-        width:100%;
-    }
-
-
-
 
 }
-/* labtop size */
-@media (min-width: 1024px) {
+
+@media (min-width: 1024px) {/* labtop size */
     .container {
         max-width:1024px;
         min-height:100vh;
-        background-color:gary;
-        
-    border-left:2px solid white;
-    border-right:2px solid white;
+        background-color: rgb(87, 17, 87);
     }
 
     .header{
@@ -80,11 +52,11 @@
 
 
 }
-/* large screen size */
-@media (min-width: 1536px) {
+
+@media (min-width: 1536px) {/* large screen size */
     .container {
         max-width:1536px;
-        height:100%;
+        min-height:100vh;
         background-color: blue;
     }
 
@@ -98,119 +70,106 @@
 
 
 }
-
-
+/* ------------------BODY------------------ */
 body {
-
-    line-height: 1.3;
+    line-height: 1;
     margin: 0;
     padding:0;
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* height: 100vh;  */
-
-
-    
-     a {text-decoration: none;} 
-
-     /* background-color: pink;  */
-
-
+    a {text-decoration: none;}
 }
-
-/* ------------------HEADER STARTS------------------ */
-
-
-
-.white-spaces{
-    width: 100%;
-    min-height: 10%;
-    height: 10vh;
-    /* border:3px solid rgb(255, 8, 230); */
-    margin-bottom:5%;
-
-}
-
+/* ------------------HEADER------------------ */
 .header {
     width:100%;
-    height: 10%;
+    height: 10vh;
 
-    position: fixed;
-    z-index: 1000;   
+    position: sticky;
+    top:0;
+    z-index:10;
+
     justify-self: center;
-
 
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-    /* padding: 0 5%; */
+    justify-content:space-evenly;
+    justify-items: center;
+    align-items: center;
 
     background-color: rgb(251, 117, 40);
+
     /* border:3px solid rgb(251, 117, 40); */
 }
-
-.header-elements{
-    width:20%;
+.header-icons{
+    width:min(7vh,8vw);
     height:auto;
-    /* border:3px solid blue; */
+    max-height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.header-elements img{
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    
+    /* border:3px solid blue; */
 }
-
-#website-icon{
-    width:70%;
+.header-icons img{
+    width: 100%;
+    height: 100%;
+    max-height:10vh;
+}
+.header-main{
+    width:min(60vw,60vh);
+    height:80%;
+    align-self: center;
     background-color: yellow;
     border-radius: 40px;
-}
 
-#search-icon{
-    align-self: center;
-    height:35%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.header-main img{
+    width: 100%;
+    height:auto;
+    max-height:10vh;
+
+}
+#header-navbar-button{
+    width:20%;
 }
 #close-navbar{
     z-index: 3;
 }
+/* ------------------SIDE BAR------------------ */
+.sidebar{
 
+    height: max(90vh,90vw);
+    width:min(90vw,90vh);
 
-
-/* ------------------HEADER ENDS------------------ */
-
-/* ------------------NAV BAR START------------------ */
-
-.navbar{
+    position: sticky;
     top:10%;
-    position: fixed;
-    width:100%;
-    min-height:100vh;
-    /* width: 100%; */
-   
-    z-index: 15;
-    
+    align-self: flex-start;
+    z-index: 20;
 
+    overflow-y:auto;
+
+    border-radius: 10px;
+    border-top-left-radius: 0px;
     background-color: rgb(255, 255, 255);
-
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 
     display:none;
     flex-direction: column;
+    align-items: center;
+
     /* border:3px solid red; */
 }
-
-nav ul{
-    margin-top:10%;
-    height:80%;
+.sidebar a{
+    font-size: max(2.5vh,2.5vw);
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    background-color:gray;
+}
+.sidebar ul{
+    width:90%;
     flex:1;
     padding: 0;
     list-style: none;
@@ -220,76 +179,96 @@ nav ul{
     justify-content: flex-start;
     align-items: flex-start;
 
-    /* border: 5px solid green; */
+    /* border: 5px solid red; */
 
 
 }
-
-nav li{
-    width:90%;
-    margin-left:5%;
-    height:10%;
-    /* border: 2px solid blue; */
-    border-bottom: 1px dashed black; 
-
-    margin-top:5%;
-}
-
-nav a{
-    display: flex;
-    height:100%;
-
-    text-decoration: none;
-    align-items:end;
-    color:black;
-  
-    font-size: 1.5em;
-}
-
-nav a:hover{
-    background-color: gray;
-}
-
-/* ------------------NAV BAR END------------------ */
-
-
-/* -----MAIN CONTENT STARTS----- */
-
-.page-pic{
-    /* position: absolute; */
-   /* margin-left:5%;
-    margin-right:5%; */
-/* 
-    max-width:90%;
-    min-height:30%; */
-    /* border:3px solid red; */
-
-    height:max(30vh,30vw);
+.sidebar ul li{
     width:100%;
+}
+.catalog-header-conatainer{
+    width:100%;
+    min-width:100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.1); 
+    border: 1.5px solid black; 
+    margin-bottom:1%;
+}
+.sidebar-catalog-name{
+    margin-left: 5%;
+    display: inline-block;
+    line-height: 2;
+    font-size: max(3.5vh,3.5vw);
+    font-weight: 550;
+
+    /* border: 2px solid blue;  */
+}
+.sidebar img{
+    width: min(10vh,10vw);
+    height: auto;
+    /* max-height: 90%; */
+    display:inline-block;
+    /* border: 2px solid blue;  */
+}
+.sidebar ul li {
+    border: none;
+    display:flex;
+    flex-direction: column;
+}
+.sidebar ul li ul {
+    border: none;
+}
+.sidebar-sub-catalog-list{
+    margin-top:-1%;
+    padding-top:2%;
+    justify-self: center;
+    margin-left:5%;
+    width:90%;
+    border-top: none;
+    font-size:1.5em;
+    line-height: 2;
+    display:none;
+    margin-bottom:4%;
+
+    border: 1.5px solid black; 
+}
+.sidebar-subcatalog-img{
+    margin-left:5%;
+    display: inline-block;
+    width:15%;
+    height: 90%;
+    margin-right:5%;
+
+    /* border: 2px solid black; */
+}
+.sidebar ul li ul li{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+/* ------------------MAIN------------------ */
+.page-pic{
+    margin-top:5%;
     display: flex;
     justify-content: center;
-    /* width: 90%; */
-    /* max-width:500px; */
-    /* min-height:30vh; */
 
-    
-}
-.page-pic img{
- 
-    height:100%;
+    width:min(50vh,50vw);
+    height:auto;
     border-radius: 10px;
-    /* height: 100%; */
-    /* max-height:30vh;
-    width: auto;
-    max-width: 100%; */
-    /* transform: translate(-50%, -50%); */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
 .page-title{
+    line-height: 1;
     margin-top:5%;
-    /* border:3px solid red; */
-    font-size:min(8vh,6vw);
+    font-size:max(5vw,4vh);
     font-weight: bold;
+
+    /* border:3px solid red; */
 }
 
 .page-sub-title{
@@ -305,10 +284,10 @@ nav a:hover{
     
 }
 .info-text{
-    /* border:3px solid blue; */
-    font-size:min(5vw,5vh);
+    font-size:max(4vw,3vh);
     color:gray;
 
+    /* border:3px solid blue; */
 }
 
 .chart-section{
@@ -414,7 +393,11 @@ td {
 
 
 
-
-
+/* ------------------FOOTER------------------ */
+.footer{
+    min-height:20vh;
+    width: 100%;
+    background-color: pink;
+}
 
 
