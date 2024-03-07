@@ -2,10 +2,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <title>任家厨房</title>
-    <link rel="icon" type="image/png" href="/img/icon/ren-icon.png">
+    <link rel="stylesheet" href="/Styles/menu-style.css">
+    <script src="/Styles/menu-script.js" defer></script>
+    <title>鱼肉</title>
+    <link rel="icon" type="image/png" href="/IMG/icon/ren-icon.png">
 </head>
 
 
@@ -13,205 +13,209 @@
   <div class="container">
 <!-- ----------------------HEADER--------------------------------- -->
     <container class ="header">
-      <div class ="header-icons" id ="header-navbar-button" onclick= changeImage() >
-        <img src="../../../img/icon/menu.svg">
-      </div>
 
-      <a href="../../../index.html" class ="header-main">
-        <img src="../../../img/icon/rensrecipe.png">
-      </a>
-      
-      <div class ="header-icons"id="search-icon">
-        <img src="../../../img/icon/search.svg"></div>
+      <div class ="header-icons"id = "sidebar-button" onclick= changeImage()><img src="/IMG/icon/menu.svg"></div>
+      <a href="/index.html" class="header-main"><img src="/IMG/icon/rensrecipe.png"></a>
+      <div class ="header-icons"><img src="/IMG/icon/search.svg"></div>
+  
     </container> 
 <!-- ----------------------SIDE BAR--------------------------------- -->
     <div class ="sidebar">
+
     <ul>
-      <li><!--  SIDE BAR CATALOG 1       -->
+
+      <li>                            <!--  SIDE BAR CATALOG 1       -->
         <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-1','sublist-1-button')">
           <div class ="sidebar-catalog-name">时令食材</div>
-          <img  class ="sub-catalog-pic" id="sublist-1-button"src="../../../img/icon/arrow-right.svg">
+          <img  class ="sub-catalog-pic" id="sublist-1-button"src="/IMG/icon/arrow-right.svg">
         </div>
-
-
-
       
         <div class="sidebar-sub-catalog-list"id="sidebar-sublist-1">
-
           <ul>
-
-            <li><img src="/img/icon/sidebar/chicken.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">鸡肉</a></li>
-            <li><img src="/img/icon/sidebar/pork.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">猪肉</a></li>
-            <li><img src="/img/icon/sidebar/fish.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">鱼肉</a></li>
-            <li><img src="/img/icon/sidebar/sheep.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">牛羊</a></li>
-            <li><img src="/img/icon/sidebar/seafood.jpg" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">海鲜</a></li>
-            <li><img src="/img/icon/sidebar/egg.jpg" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">鸡蛋</a></li>
-            <li><img src="/img/icon/sidebar/tofu.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">豆腐</a></li>
-            <li><img src="/img/icon/sidebar/vege.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">蔬菜</a></li>
-
-
+            <li><img src="/IMG/icon/sidebar/chicken.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/chicken/chicken-menu.html">鸡肉</a></li>
+            <li><img src="/IMG/icon/sidebar/pork.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/Pork/pork-menu.html">猪肉</a></li>
+            <li><img src="/IMG/icon/sidebar/fish.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/fish/fish-menu.html">鱼肉</a></li>
+            <li><img src="/IMG/icon/sidebar/sheep.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/lambNbeef/lambNbeef.html">牛羊</a></li>
+            <li><img src="/IMG/icon/sidebar/seafood.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/seafood/seafood-menu.html">海鲜</a></li>
+            <li><img src="/IMG/icon/sidebar/egg.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/egg/egg-menu.html">鸡蛋</a></li>
+            <li><img src="/IMG/icon/sidebar/tofu.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/tofu/tofu-menu.html">豆腐</a></li>
+            <li><img src="/IMG/icon/sidebar/vege.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byIngredient/vegetable/vege-menu.html">蔬菜</a></li>
           </ul>
-
         </div>
-      
       </li>
 
-      <li >                           <!--  SIDE BAR CATALOG 2       -->
+      <li>                           <!--  SIDE BAR CATALOG 2       -->
 
         <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-2','sublist-2-button')">
           <div class ="sidebar-catalog-name">菜式</div>
-          <img  class ="sub-catalog-pic" id="sublist-2-button"src="../../../img/icon/arrow-right.svg">
+          <img  class ="sub-catalog-pic" id="sublist-2-button"src="/IMG/icon/arrow-right.svg">
         </div>
 
-
-
-      
         <div class="sidebar-sub-catalog-list"id="sidebar-sublist-2">
-
           <ul>
-
-            <li><img src="/img/icon/sidebar/hot.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">热菜</a></li>
-            <li><img src="/img/icon/sidebar/snack.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">小吃</a></li>
-            <li><img src="/img/icon/sidebar/salad.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">素菜</a></li>
-            <li><img src="/img/icon/sidebar/main.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">主食</a></li>
-            <li><img src="/img/icon/sidebar/bites.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">点心</a></li>
-            <li><img src="/img/icon/sidebar/soup.jpg" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">靓汤</a></li>
-            <li><img src="/img/icon/sidebar/cold.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">冷盘</a></li>
-            <li><img src="/img/icon/sidebar/dessert.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">甜品</a></li>
-
-
+            <li><img src="/IMG/icon/sidebar/hot.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/hot/hot-menu.html">热菜</a></li>
+            <li><img src="/IMG/icon/sidebar/snack.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/snack/snack-menu.html">小吃</a></li>
+            <li><img src="/IMG/icon/sidebar/salad.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/salad/salad-menu.html">素菜</a></li>
+            <li><img src="/IMG/icon/sidebar/main.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/main/main-menu.html">主食</a></li>
+            <li><img src="/IMG/icon/sidebar/bites.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/bites/bites-menu.html">点心</a></li>
+            <li><img src="/IMG/icon/sidebar/soup.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/soup/soup-menu.html">靓汤</a></li>
+            <li><img src="/IMG/icon/sidebar/cold.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/cold/cold-menu.html">冷盘</a></li>
+            <li><img src="/IMG/icon/sidebar/dessert.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byType/dessert/dessert-menu.html">甜品</a></li>
           </ul>
-
-        </div>
-
-      
+        </div>  
       </li>
 
-
-      <li >                           <!--  SIDE BAR CATALOG 3       -->
-
+      <li>                           <!--  SIDE BAR CATALOG 3       -->
         <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-3','sublist-3-button')">
           <div class ="sidebar-catalog-name">大江南北</div>
-          <img  class ="sub-catalog-pic" id="sublist-3-button"src="../../../img/icon/arrow-right.svg">
+          <img  class ="sub-catalog-pic" id="sublist-3-button"src="/IMG/icon/arrow-right.svg">
         </div>
 
-
-
-      
         <div class="sidebar-sub-catalog-list"id="sidebar-sublist-3">
-
           <ul>
-
-            <li><img src="/img/icon/sidebar/cantonese.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">粤菜</a></li>
-            <li><img src="/img/icon/sidebar/chaoshan.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">潮汕</a></li>
-            <li><img src="/img/icon/sidebar/northeast.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">东北</a></li>
-            <li><img src="/img/icon/sidebar/spicy.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">川湘</a></li>
-
-
-
+            <li><img src="/IMG/icon/sidebar/cantonese.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byCusine/cantonese/contonese-menu.html">粤菜</a></li>
+            <li><img src="/IMG/icon/sidebar/chaoshan.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byCusine/chaoshan/chaoshan-menu.html">潮汕</a></li>
+            <li><img src="/IMG/icon/sidebar/northeast.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byCusine/northeast/northeast-menu.html">东北</a></li>
+            <li><img src="/IMG/icon/sidebar/spicy.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byCusine/spicy/spicy-menu.html">川湘</a></li>
           </ul>
+      </li>
 
+      <li >                           <!--  SIDE BAR CATALOG 4       -->
 
-          <li >                           <!--  SIDE BAR CATALOG 4       -->
-
-            <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-4','sublist-4-button')">
-              <div class ="sidebar-catalog-name">风味人间</div>
-              <img  class ="sub-catalog-pic" id="sublist-4-button"src="../../../img/icon/arrow-right.svg">
-            </div>
+        <div class ="catalog-header-conatainer"onclick="changeSideBar('sidebar-sublist-4','sublist-4-button')">
+          <div class ="sidebar-catalog-name">风味人间</div>
+          <img  class ="sub-catalog-pic" id="sublist-4-button"src="/IMG/icon/arrow-right.svg">
+        </div>
+  
+  
+  
       
-      
-      
-          
-            <div class="sidebar-sub-catalog-list"id="sidebar-sublist-4">
-      
-              <ul>
-      
-                <li><img src="/img/icon/sidebar/korean.jpg" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">韩式</a></li>
-                <li><img src="/img/icon/sidebar/japan.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">日式</a></li>
-                <li><img src="/img/icon/sidebar/mexican.jpg" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">墨西哥</a></li>
-                <li><img src="/img/icon/sidebar/west.png" class = "sidebar-subcatalog-img"></img><a href="catalog/byIngredient/chicken/chicken-menu.html">欧美</a></li>
-        
-      
-      
-              </ul>
-      
-
-
-
+        <div class="sidebar-sub-catalog-list"id="sidebar-sublist-4">
+  
+          <ul>
+  
+            <li><img src="/IMG/icon/sidebar/korean.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byGlobal/korean/korean-menu.html">韩式</a></li>
+            <li><img src="/IMG/icon/sidebar/japan.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byGlobal/japanese/japanese.html">日式</a></li>
+            <li><img src="/IMG/icon/sidebar/mexican.jpg" class = "sidebar-subcatalog-img"></img><a href="/catalog/byGlobal/mexcian/mexcian.html">墨西哥</a></li>
+            <li><img src="/IMG/icon/sidebar/western.png" class = "sidebar-subcatalog-img"></img><a href="/catalog/byGlobal/western/western-menu.html">欧美</a></li>
+    
+          </ul>
+      </li>
 
     </ul> 
 
-
-
     </div> 
+
+
+<!-- ----------------------NAVBAR--------------------------------- -->
+  <div class ="navbar">
+
+    <container onclick= changeNavBar() class ="navbar-header">
+
+      <div class ="navbar-header-left" >
+        <img  id="navbar-button"src="/IMG/icon/down.svg"> 
+        <a id ="navbar-header-left-text">鱼肉</a>
+      </div>
+
+      <a class ="navnavbar-header-right-text">时令食材</a>
+
+    </container> 
+
+
+    <div class ="navbar-menu">
+
+      <ul>
+        <a href="/catalog/byIngredient/chicken/chicken-menu.html"><li >鸡肉</li></a>
+        <a href="/catalog/byIngredient/Pork/pork-menu.html"><li>猪肉</li></a>
+        <a href="/catalog/byIngredient/fish/fish-menu.html"><li  class = "current-name" >鱼肉</li></a>
+        <a href="/catalog/byIngredient/lambNbeef/lambNbeef.html"><li>牛羊</li></a>
+        <a href="/catalog/byIngredient/seafood/seafood-menu.html"><li>海鲜</li></a>
+        <a href="/catalog/byIngredient/egg/egg-menu.html"><li>鸡蛋</li></a>
+        <a href="/catalog/byIngredient/tofu/tofu-menu.html"><li>豆腐</li></a>
+        <a href="/catalog/byIngredient/vegetable/vege-menu.html"><li>蔬菜</li></a>
+      </ul>
+
+
+
+    </div>
+
+
+
+
+
+
+</div>
+
 <!-- ----------------------MAIN STARTS--------------------------------- -->
+<!-- <div class = "page-title">鸡肉</div> -->
 
-<div class = "page-title">PORK</div>
-
-
-<a href="honey-chicken-wing/honey-chicken-wing.html" class = "recipe">
-    <div class ="recipe-pic">
-        <img src="honey-chicken-wing/pic.jpg">
-    </div>
-    <div class = "recipe-info">
-        <div class = "recipe-name">蜜汁鸡翅</div>
-        <div class = "recipe-time">15-20分钟</div>
-        <div class = "recipe-tags">鸡翅/甜口/蜂蜜</div>
-    </div>
-</a>
-
-
-<a href="chicken-with-red-oil/chicken-with-red-oil.html" class = "recipe">
-    <div class ="recipe-pic">
-        <img src="chicken-with-red-oil/pic.jpg">
-    </div>
-    <div class = "recipe-info">
-        <div class = "recipe-name">口水鸡</div>
-        <div class = "recipe-time">15-20分钟</div>
-        <div class = "recipe-tags">微辣/凉拌/鸡腿</div>
-    </div>
-</a>
-
-<a href="white-cut-chicken/white-cut-chicken.html" class = "recipe">
-    <div class ="recipe-pic">
-        <img src="white-cut-chicken/pic.jpg">
-    </div>
-    <div class = "recipe-info">
-        <div class = "recipe-name">白切鸡</div>
-        <div class = "recipe-time">60分钟</div>
-        <div class = "recipe-tags">白切/粤菜/有鸡味</div>
-
-    </div>
-</a>
-
-
-<a href="white-cut-chicken/white-cut-chicken.html" class = "recipe">
-    <div class ="recipe-pic">
-        <img src="salty-shredded-chicken/pic.jpg">
-    </div>
-    <div class = "recipe-info">
-        <div class = "recipe-name">盐焗手撕鸡</div>
-        <div class = "recipe-time">25-30分钟</div>
-        <div class = "recipe-tags">盐焗/凉拌/鸡腿</div>
-    </div>
-</a>
-
-
-<a href="white-cut-chicken/white-cut-chicken.html" class = "recipe">
-    <div class ="recipe-pic">
-        <img src="yellow-braised-chicken/pic.jpg">
-    </div>
-    <div class = "recipe-info">
-        <div class = "recipe-name">黄焖鸡</div>
-        <div class = "recipe-time">25-30分钟</div>
-        <div class = "recipe-tags">焖鸡/鸡肉/黄豆酱</div>
-    </div>
-</a>
-
-
-
- <!-- ----------------------MAIN ENDS--------------------------------- -->
+<a href="steam-bass/recipe.html" class = "recipe">
+  <div class ="recipe-pic">
+      <img src="steam-bass/pic.jpg">
   </div>
+  <div class = "recipe-info">
+      <div class = "recipe-name">清蒸鲈鱼</div>
+      <div class = "recipe-time">30分钟</div>
+      <div class = "recipe-tags">广式/清单/嫩滑</div>
+
+  </div>
+</a>
+
+<a href="pan-fried-salmon/recipe.html" class = "recipe">
+  <div class ="recipe-pic">
+      <img src="pan-fried-salmon/pic.jpg">
+  </div>
+  <div class = "recipe-info">
+      <div class = "recipe-name">煎三文鱼</div>
+      <div class = "recipe-time">20-30分钟</div>
+      <div class = "recipe-tags">煎鱼/带皮/高营养</div>
+  </div>
+</a>
+
+
+<a href="tomato-fish-fillet/recipe.html" class = "recipe">
+
+    <div class ="recipe-pic">
+        <img src="tomato-fish-fillet/pic.jpg">
+    </div>
+    <div class = "recipe-info">
+      <div class = "recipe-name">番茄鱼片</div>
+      <div class = "recipe-time">20-25分钟</div>
+      <div class = "recipe-tags">番茄/下饭</div>
+    </div>
+</a>
+
+
+
+
+
+<a href="sour-and-spicy-fish/recipe.html" class = "recipe">
+    <div class ="recipe-pic">
+        <img src="sour-and-spicy-fish/pic.jpg">
+    </div>
+    <div class = "recipe-info">
+        <div class = "recipe-name">酸菜鱼</div>
+        <div class = "recipe-time">35-45分钟</div>
+        <div class = "recipe-tags">下饭/酸辣</div>
+    </div>
+</a>
+
+
+<a href="fish-fillet-congee/recipe.html" class = "recipe">
+    <div class ="recipe-pic">
+        <img src="fish-fillet-congee/pic.jpg">
+    </div>
+    <div class = "recipe-info">
+        <div class = "recipe-name">鱼片粥</div>
+        <div class = "recipe-time">35-45分钟</div>
+        <div class = "recipe-tags">生滚粥/广式</div>
+    </div>
+</a>
+
+</div>
+
+<div class="footer"></div>
+
 </body>
 
 
