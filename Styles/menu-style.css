@@ -2,7 +2,6 @@
 .container {
     width: 100%;
     min-height:100vh;
-
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -13,28 +12,18 @@
 @media (max-width: 450px) {/* SMALL */
     .container {
         min-width:320px;
-        min-height:100vh;
         background-color: pink;
     }
-
 }
-
 @media (min-width: 451px) and (max-width:1440px){/* MEDIUM*/
     .container {
-        /* max-width:1440px; */
-        min-height:100vh;
         background-color: rgb(87, 17, 87);
     }
 }
-
 @media (min-width: 1441px) {/* LARGE */
     .container {
-        /* max-width:1536px; */
-        min-height:100vh;
         background-color: blue;
     }
-
-
 }
 /* ------------------BODY------------------ */
 body {
