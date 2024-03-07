@@ -10,62 +10,28 @@
     margin-right:auto;
     position: relative;
 }
-@media (max-width: 639px) {/* phone size */
+@media (max-width: 450px) {/* SMALL */
     .container {
-        min-width:340px;
+        min-width:320px;
         min-height:100vh;
         background-color: pink;
     }
 
 }
 
-@media (min-width: 640px) {/* ipad size */
+@media (min-width: 451px) and (max-width:1440px){/* MEDIUM*/
     .container {
-        max-width:640px;
-        min-height:100vh;
-        background-color: gray;
-    }
-    .header{
-        max-width: 640px;
-    }
-
-    .navbar{
-        max-width: 640px;
-    }
-
-}
-
-@media (min-width: 1024px) {/* labtop size */
-    .container {
-        max-width:1024px;
+        /* max-width:1440px; */
         min-height:100vh;
         background-color: rgb(87, 17, 87);
     }
-
-    .header{
-        max-width: 1024px;
-    }
-
-    .navbar{
-        max-width: 1024px;
-    }
-
-
 }
 
-@media (min-width: 1536px) {/* large screen size */
+@media (min-width: 1441px) {/* LARGE */
     .container {
-        max-width:1536px;
+        /* max-width:1536px; */
         min-height:100vh;
         background-color: blue;
-    }
-
-    .header{
-        max-width: 1536px;
-    }
-
-    .navbar{
-        max-width: 1536px;
     }
 
 
