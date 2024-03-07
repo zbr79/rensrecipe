@@ -277,6 +277,7 @@ a:hover{
     text-align: center;
     font-weight: bold;
     color:black;
+    font-size: min(5vw,5vh);
 }
 
 
