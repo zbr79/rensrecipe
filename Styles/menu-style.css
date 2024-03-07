@@ -415,8 +415,6 @@ a:hover{
 .footer{
     margin:0 auto;
     min-height:20vh;
-    width: 100%;
-    background-color: rgb(87, 17, 87);
     max-width: 1442px;
 }
 
