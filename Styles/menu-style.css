@@ -8,21 +8,21 @@
     margin-left:auto;
     margin-right:auto;
     position: relative;
+    background-color: rgb(87, 17, 87);
 }
 @media (max-width: 450px) {/* SMALL */
     .container {
         min-width:320px;
-        background-color: pink;
     }
 }
 @media (min-width: 451px) and (max-width:1440px){/* MEDIUM*/
     .container {
-        background-color: rgb(87, 17, 87);
+        min-height:100vh;
     }
 }
 @media (min-width: 1441px) {/* LARGE */
     .container {
-        background-color: blue;
+        max-width: 1442px;
     }
 }
 /* ------------------BODY------------------ */
@@ -413,9 +413,11 @@ a:hover{
 }
 /* ------------------FOOTER------------------ */
 .footer{
+    margin:0 auto;
     min-height:20vh;
     width: 100%;
-    background-color: pink;
+    background-color: rgb(87, 17, 87);
+    max-width: 1442px;
 }
 
 
